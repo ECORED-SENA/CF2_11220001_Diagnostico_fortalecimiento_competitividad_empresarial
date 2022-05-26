@@ -1,1 +1,2 @@
-module.exports = 'NOMBRE DEL COMPONENTE FORMATIVO'
+module.exports =
+  'Formulación diagnóstica y reconocimiento de iniciativas de desarrollo.'
