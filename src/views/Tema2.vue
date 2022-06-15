@@ -1,7 +1,7 @@
 <template lang="pug">
 .curso-main-container.pb-3
   BannerInterno
-  .container.tarjeta.tarjeta--blanca.p-4.p-md-5
+  .container.tarjeta.tarjeta--blanca.p-4.p-md-5(data-aos="fade")
     .titulo-principal.color-acento-contenido
       .titulo-principal__numero
         span 2
@@ -287,10 +287,10 @@
               .text-white.p-4
                 p Ajustes y recalibraciones del indicador que impulsan la evolución.
     .row.justify-content-center.mt-5
-      .col-lg-8.bg9.p-5
-        .row  
+      .col-lg-8.bg9.py-md-4.py-2.px-5
+        .row.align-items-center 
           .col-lg-9
-            p.text-center Ejemplo trazabilidad del indicador de crecimiento en ventasen un año.
+            p.text-center.mb-0 Ejemplo trazabilidad del indicador de crecimiento en ventasen un año.
           .col-lg-3
             .row
               .col-auto

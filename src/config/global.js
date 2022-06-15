@@ -325,24 +325,25 @@ export default {
   ],
   complementario: [
     {
-      texto:
-        'Gregori, P. (2016). GA1239 Herramientas estadísticas básicas de la calidad. http://www3.uji.es/~gregori/docencia/mt1021-1516/tema5-herramientas-pablo.html .Estadística básica',
-      tipo: 'Página web',
-      link:
-        'http://www3.uji.es/~gregori/docencia/mt1021-1516/tema5-herramientas-pablo.html',
+      tema: 'Estrategias para la segmentación de mercados',
+      referencia:
+        'Cámara de Comercio de Medellín. (2020). <em>Suftware</em> Tendencias de negocios - Mercadeo y ventas',
+      tipo: 'Video',
+      link: 'https://www.google.com/',
     },
     {
-      texto:
-        'Gutiérrez, A. (2021). Herramientas Estadísticas. https://alfredogutierrez.weebly.com/16-herramientas-estadisticas.html. Estadística básica',
-      tipo: 'Página web',
-      link:
-        'https://alfredogutierrez.weebly.com/16-herramientas-estadisticas.html',
+      tema: 'Estrategias para la segmentación de mercados',
+      referencia:
+        'Cámara de Comercio de Medellín. (2020). <em>Suftware</em> Tendencias de negocios - Mercadeo y ventas',
+      tipo: 'Video',
+      link: 'https://www.google.com/',
     },
     {
-      texto:
-        'Rojas Caro, J. y Matallana Quiroga, L. (2016). Los indicadores de gestión como herramienta de competitividad empresarial. https://ciencia.lasalle.edu.co/administracion_de_empresas. Tipos y naturaleza de los indicadores',
-      tipo: 'pdf',
-      link: 'https://ciencia.lasalle.edu.co/administracion_de_empresas',
+      tema: 'Estrategias para la segmentación de mercados',
+      referencia:
+        'Cámara de Comercio de Medellín. (2020). <em>Suftware</em> Tendencias de negocios - Mercadeo y ventas',
+      tipo: 'Video',
+      link: 'https://www.google.com/',
     },
   ],
   creditos: {
@@ -429,7 +430,7 @@ export default {
       },
     ],
   },
-  // creditosInicio: [
+  //cio: [
   //   {
   //     titulo: 'En alianza',
   //     contenido: [

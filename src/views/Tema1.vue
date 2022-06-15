@@ -1,7 +1,7 @@
 <template lang="pug">
 .curso-main-container.pb-3
   BannerInterno
-  .container.tarjeta.tarjeta--blanca.p-4.p-md-5
+  .container.tarjeta.tarjeta--blanca.p-4.p-md-5(data-aos="fade")
     .titulo-principal.color-acento-contenido
       .titulo-principal__numero
         span 1
@@ -17,7 +17,7 @@
             .tarjeta-foto-hover__img: img(src='@/assets/curso/tema1/1.png')
             .tarjeta-foto-hover__titulo.d-flex.justify-content-left.align-items-center.p-2.bgc1
               h4.mb-0.text-white Generación de información
-            .tarjeta-foto-hover__tarjeta.bg-degrade.d-flex.align-items-center.justify-content-center
+            .tarjeta-foto-hover__tarjeta.bg-degrade.d-flex.align-items-center.justify-content-center.a1
 
               .row.bgc1
                 h5.text-white.mt-4 Generación de información
@@ -33,7 +33,7 @@
             .tarjeta-foto-hover__img: img(src='@/assets/curso/tema1/2.png')
             .tarjeta-foto-hover__titulo.d-flex.justify-content-left.align-items-center.p-2.bgc1
               h4.mb-0.text-white Organización de la información
-            .tarjeta-foto-hover__tarjeta.bg-degrade.d-flex.align-items-center.justify-content-center
+            .tarjeta-foto-hover__tarjeta.bg-degrade.d-flex.align-items-center.justify-content-center.a1
               .row.bgc1
                 h5.text-white.mt-4 Organización de la información
                 .row.bgc2
@@ -48,7 +48,7 @@
             .tarjeta-foto-hover__img: img(src='@/assets/curso/tema1/3.png')
             .tarjeta-foto-hover__titulo.d-flex.justify-content-left.align-items-center.p-2.bgc1
               h4.mb-0.text-white Análisis e interpretación de la información
-            .tarjeta-foto-hover__tarjeta.bg-degrade.d-flex.align-items-center.justify-content-center
+            .tarjeta-foto-hover__tarjeta.bg-degrade.d-flex.align-items-center.justify-content-center.a1
               .row.bgc1
                 h5.text-white.mt-4 Análisis e interpretación de la información
 
@@ -106,11 +106,11 @@
                     | Formularios para registrar información por observación.            
       p Por otra parte, es evidente la necesidad de fijar el cronograma para la captura de información, donde según cada tipo de información y técnica de recolección, se debe realizar la asignación de los recursos y contar con ellos al momento de su levantamiento. La siguiente infografía presenta las técnicas de recolección de información.
       .row.justify-content-center.mt-5
-        .col-lg-6.bg3.p-5
-          .row  
+        .col-lg-6.bg3.py-md-4.py-2.px-5
+          .row.align-items-center 
             .col-lg-8
 
-              p Técnicas de recolección de información.
+              p.mb-0 Técnicas de recolección de información.
             .col-lg-4
               a.boton.me-3.indicador__container(
                 :href="obtenerLink('/downloads/prueba.pdf')"
@@ -202,29 +202,29 @@
             .tabla-b__header
               .row
                 .col-lg-6
-                  h5.mb-0 Factores y Aspectos Exógenos
+                  h4.mb-0.text-center Factores y Aspectos Exógenos
                 .col-lg-6
-                  h5 Factores y Aspectos Endógenos
+                  h4.text-center Factores y Aspectos Endógenos
             table
               tr
                 th 
-                  p - Políticos y gubernamentales
-                  p - Económicos
-                  p - Sociales y Demográficos
-                  p - Tecnológicos
-                  p - Clientes
-                  p - Proveedores
-                  p - Competencia
+                  p.font1.mb-0 - Políticos y gubernamentales
+                  p.font1.mb-0  - Económicos
+                  p.font1.mb-0  - Sociales y Demográficos
+                  p.font1.mb-0  - Tecnológicos
+                  p.font1.mb-0  - Clientes
+                  p.font1.mb-0  - Proveedores
+                  p.font1.mb-0  - Competencia
 
                 td 
-                  p.text-small  - Gestión administrativa estratégica
-                  p.text-small - Productos y servicios
-                  p.text-small - Mercado de clientes servidos
-                  p.text-small - Procesos empresariales:
-                  p.text-small - Marketing y comunicación
-                  p.text-small - Recursos humanos y Organización
-                  p.text-small - Posición Financiera
-                  p.text-small - Tecnología disponible
+                  p.font1.mb-0   - Gestión administrativa estratégica
+                  p.font1.mb-0  - Productos y servicios
+                  p.font1.mb-0  - Mercado de clientes servidos
+                  p.font1.mb-0  - Procesos empresariales:
+                  p.font1.mb-0  - Marketing y comunicación
+                  p.font1.mb-0  - Recursos humanos y Organización
+                  p.font1.mb-0  - Posición Financiera
+                  p.font1.mb-0  - Tecnología disponible
     separador
     #t_1_3.titulo-segundo.color-acento-contenido
       h2 1.3. Análisis de la información
@@ -255,9 +255,24 @@
             .col-md-1
             .col-md-1
             .col-md-5
-              img(src='@/assets/curso/tema1/11.svg', alt='Texto que describa la imagen')
+              .row.tq.p-4
+                .row
+                  .col-lg-10
+                    h5 Fortalezas
+                  .col-lg-2
+                    img(src='@/assets/curso/tema1/ico1.svg', alt='Texto que describa la imagen')
+                p.mt-2 Son aquellos aspectos que domina la empresa para su supervivencia, lo que le permite operar, por lo que se distingue, en qué es mejor que otros.
+                p Ejemplo: la calidad del producto, por ello le compran y sobre todo le recompran.
+            .col-md-1.wa
             .col-md-5
-              img(src='@/assets/curso/tema1/12.svg', alt='Texto que describa la imagen')
+              .row.tq.p-4
+                .row
+                  .col-lg-10
+                    h5 Debilidades
+                  .col-lg-2
+                    img(src='@/assets/curso/tema1/ico2.svg', alt='Texto que describa la imagen')
+                p.mt-2 Es el comportamiento que tiene una variable controlable dentro de un factor, que hace que los impactos para la empresa sean desfavorables y la puedan estar induciendo a fracasos.
+                p Ejemplo: retrasos en las entregas.
 
           div(titulo="Factores exógenos")
             .row.justify-content-center
@@ -270,10 +285,25 @@
               .col-md-1
               .col-md-1
               .col-md-5
-                img(src='@/assets/curso/tema1/13.svg', alt='Texto que describa la imagen')
+                .row.tq.p-4
+                  .row
+                    .col-lg-10
+                      h5 Oportunidades
+
+                    .col-lg-2
+                      img(src='@/assets/curso/tema1/ico3.svg', alt='Texto que describa la imagen')
+                  p.mt-2.mb-0 Son las posibilidades que se le presentan a la empresa de poder actuar en condiciones de favorabilidad o beneficio, desarrollo, crecimiento, porque el macroentorno se lo permite y lo favorece.
+                  p Ejemplo: la reducción de los precios de los combustibles para una empresa transportadora.
+              .col-md-1.wa
               .col-md-5
-                img(src='@/assets/curso/tema1/14.svg', alt='Texto que describa la imagen')
-              .col-md-1
+                .row.tq.p-4
+                  .row
+                    .col-lg-10
+                      h5 Amenazas
+                    .col-lg-2
+                      img(src='@/assets/curso/tema1/ico4.svg', alt='Texto que describa la imagen')
+                  p.mt-2 Son las posibilidades que uno o varios aspectos del macro o micro entorno afecten negativamente a la empresa, reduciendo su operación, beneficio, crecimiento, etc.
+                  p Ejemplo: un aumento en los precios de los combustibles para una empresa transportadora.
     p.text-center Para hacer la clasificación de los factores y sus aspectos o variables, la técnica las dispone en una matriz 2x2 así:
     .row.justify-content-center
       .col-lg-6
@@ -308,7 +338,16 @@
             h5.mt-2 Participación de mercado frente a los considerados competencia
       p.text-center Estos cuadrantes se definen entre 2 variables:
       .col-lg-8
-        img(src='@/assets/curso/tema1/18.svg', alt='Texto que describa la imagen')
+        .row.justify-content-center
+          .col-lg-2
+            img.tamimg(src='@/assets/curso/tema1/ico5.svg', alt='Texto que describa la imagen')
+          .col-lg-10.mt-3
+            p <strong>Crecimiento en el mercado:</strong> cómo aumentan las ventas.
+        .row.justify-content-center.mt-5
+          .col-lg-2
+            img.tamimg(src='@/assets/curso/tema1/ico6.svg', alt='Texto que describa la imagen')
+          .col-lg-10.mt-3
+            p <strong>Eje de participación de mercado:</strong>  cuánto de lo que se vende en el sector o industria contribuye a la empresa o cuánto de lo que vende la empresa representa cada producto. 
       .col-lg-10
         p.mt-4 La labor diagnóstica de la empresa es ubicar su portafolio de productos en los cuadrantes según corresponda, puede haber varios en un solo cuadrante o cuadrantes sin productos.
       .col-lg-8
@@ -322,17 +361,17 @@
             figure
               img(src='@/assets/curso/tema1/19.svg', alt='Texto que describa la imagen')
 
-          div(x="60%" y="77%" tooltip="Perro: Productos Perro" numero="")
+          div(x="60%" y="77%" tooltip="Perro: Productos Perro" numero="+")
             h5.c1 Perro: Productos Perro
             p Estos productos no presentan crecimiento en ventas y tienen baja participación de mercado frente a lo que se vende en el sector o industria, por ende, no contribuyen en los beneficios de la empresa regularmente, incluso llega a ser negativa la utilidad. En estos casos se recomienda retirar del portafolio y oferta de productos de estas referencias. En ocasiones, hay que mantenerlos, ya que representan la tradición de la empresa, tienen el posicionamiento y generan la confianza en los otros productos de la empresa, aun cuando su contribución a la empresa no es alto, regularmente fueron vacas lechera, que por cambios en las tendencias de consumo o por que salieron productos para la misma función o servicio con mejor tecnología o eficiencia se quedaron relegados, se podría desarrollar esos productos, para ver si se recompone su crecimiento, decisiones que deben tomar los empresarios al diagnosticar las potencialidades del producto.
           
-          div(x="26.5%" y="77%" tooltip="Vaca: Productos Vaca Lechera" numero="")
+          div(x="26.5%" y="77%" tooltip="Vaca: Productos Vaca Lechera" numero="+")
             h5.c1 Vaca: Productos Vaca Lechera
             p  Se denominan así porque son los productos más desarrollados que producen los ingresos más altos en la empresa, ya están bien posicionados en el mercado aunque cada vez es más difícil aumentar su crecimiento de ventas, porque el mercado ya está saturado o es inflexible De los recursos de estos productos se pueden retirar utilidades con que vive la empresa e invertir en los otros productos como Estrellas e interrogantes incluso.
-          div(x="26.5%" y="34%" tooltip="Estrella: Productos Estrella" numero="")
+          div(x="26.5%" y="34%" tooltip="Estrella: Productos Estrella" numero="+")
             h5.c1 Estrella: Productos Estrella
             p   Son aquellos con gran crecimiento y que están logrando buena participación de mercado. A estos productos ubicados en este cuadrante hay que estimularlos seguirles invirtiendo y no retirarles utilidades, hasta que no se vuelvan vacas lecheras.
-          div(x="60%" y="34%" tooltip="Interrogante: Productos Interrogante" numero="")
+          div(x="60%" y="34%" tooltip="Interrogante: Productos Interrogante" numero="+")
             h5.c1 Interrogante: Productos Interrogante
             p  Son aquellos productos que tienen un rápido crecimiento, pero con poca cuota de participación en el mercado, regularmente porque son nuevos. Se recomienda seguir invirtiéndoles porque son semillas que crecerán y se convertirán en productos estrella o vacas lecheras, se tiene que supervisar mucho porque también fácilmente se pueden convertir en productos perros, porque las personas consumen al inicio por exploración, pero si no gustan, no recompran, no crecerán.
           
@@ -390,10 +429,10 @@
           .col-lg-4
             img(src='@/assets/curso/tema1/24.png', alt='Texto que describa la imagen')
     .row.justify-content-center.mt-5
-      .col-lg-8.bg9.p-5
-        .row  
+      .col-lg-8.bg9.py-md-4.py-2.px-5
+        .row.align-items-center 
           .col-lg-9
-            p.text-center ¿ Por qué se caracteriza la fase de crecimiento ?
+            p.text-center.mb-0 ¿ Por qué se caracteriza la fase de crecimiento ?
           .col-lg-3
             .row
               .col-auto
@@ -440,10 +479,10 @@
         p Los procesos de diagnóstico empresarial como ejercicio de investigación, se basan en la búsqueda de información y procesamiento de datos, de manera que se evidencie el estado actual, la evolución o la tendencia.
         p Una de las herramientas que permite este ejercicio con la información en los procesos de diagnóstico, es la estadística, la cual se define como la ciencia que se dedica al ordenamiento y análisis de conjuntos de datos para obtener descripciones, explicaciones o predicciones sobre aspectos percibidos y analizados.
         .row.justify-content-center.mt-5
-          .col-lg-12.bg9.p-5
-            .row  
+          .col-lg-12.bg9.py-md-4.py-2.px-5
+            .row.align-items-center 
               .col-lg-9
-                p.text-center Los conceptos básicos de la estadística son:
+                p.text-center.mb-0 Los conceptos básicos de la estadística son:
               .col-lg-3
                 .row
                   .col-auto
@@ -467,15 +506,17 @@
         .row.mt-2
           .col-sm.mb-5.mb-sm-0
             ul.lista-ul--color
+              .col-lg-12.fons
+                li.mb-0
+                  i.lista-ul__vineta
+                  p.mb-0   Indicadores macroeconómicos agregados como el PIB y su contraste en diferentes periodos.
               li.mb-0 
                 i.lista-ul__vineta
-                |   Indicadores macroeconómicos agregados como el PIB y su contraste en diferentes periodos.
-              li.mb-0 
-                i.lista-ul__vineta
-                |   Comportamiento de las tasas de interés en los últimos años. 
-              li.mb-0 
-                i.lista-ul__vineta
-                |   Evolución de los precios por inflación en los últimos años.
+                p.mb-0   Comportamiento de las tasas de interés en los últimos años. 
+              .col-lg-12.fons
+                li.mb-0 
+                  i.lista-ul__vineta.fons
+                  p.fons.mb-0   Evolución de los precios por inflación en los últimos años.
 
       .col-lg-4
         img(src='@/assets/curso/tema1/28.png', alt='Texto que describa la imagen')

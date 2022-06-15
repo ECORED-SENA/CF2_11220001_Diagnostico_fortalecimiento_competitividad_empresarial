@@ -1,7 +1,7 @@
 <template lang="pug">
 .curso-main-container.introduccion
   BannerInterno
-  .container.tarjeta.tarjeta--blanca.p-4.p-md-5.mb-5
+  .container.tarjeta.tarjeta--blanca.p-4.p-md-5.mb-5(data-aos="fade")
   
     .titulo-principal.color-acento-contenido
       .titulo-principal__numero

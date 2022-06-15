@@ -65,7 +65,7 @@ div
     //- .boton debe ir acompañado de una de una de estas clases => 
     //- .color-primario, .color-secundario, .color-acento-contenido, .color-acento-botones
     a.boton.me-3.indicador__container(
-      :href="obtenerLink('/downloads/prueba.pdf')"
+      :href="obtenerLink('downloads/prueba.pdf')"
       target="_blank"
       type="application/pdf"
       @mouseover="mostrarIndicador = false"
@@ -75,40 +75,74 @@ div
       .indicador--click(v-if="mostrarIndicador")
 
   .mb-3
-    a.boton.color-primario.me-3(:href="obtenerLink('/downloads/prueba.pdf')" target="_blank" type="application/pdf")
+    a.boton.color-primario.me-3(:href="obtenerLink('downloads/prueba.pdf')" target="_blank" type="application/pdf")
       span Descargar
       i.fas.fa-file-download
 
-    a.boton.color-secundario.me-3(:href="obtenerLink('/downloads/prueba.pdf')" target="_blank" type="application/pdf")
+    a.boton.color-secundario.me-3(:href="obtenerLink('downloads/prueba.pdf')" target="_blank" type="application/pdf")
       span Descargar
       i.fas.fa-file-download
 
-    a.boton.color-acento-contenido.me-3(:href="obtenerLink('/downloads/prueba.pdf')" target="_blank" type="application/pdf")
+    a.boton.color-acento-contenido.me-3(:href="obtenerLink('downloads/prueba.pdf')" target="_blank" type="application/pdf")
       span Descargar
       i.fas.fa-file-download
 
-    a.boton.color-acento-botones.me-3(:href="obtenerLink('/downloads/prueba.pdf')" target="_blank" type="application/pdf")
+    a.boton.color-acento-botones.me-3(:href="obtenerLink('downloads/prueba.pdf')" target="_blank" type="application/pdf")
       span Descargar
       i.fas.fa-file-download
 
   div
-    a.boton--sm.color-primario.me-3(:href="obtenerLink('/downloads/prueba.pdf')" target="_blank" type="application/pdf")
+    a.boton--sm.color-primario.me-3(:href="obtenerLink('downloads/prueba.pdf')" target="_blank" type="application/pdf")
       span Descargar
       i.fas.fa-file-download
 
-    a.boton--sm.color-secundario.me-3(:href="obtenerLink('/downloads/prueba.pdf')" target="_blank" type="application/pdf")
+    a.boton--sm.color-secundario.me-3(:href="obtenerLink('downloads/prueba.pdf')" target="_blank" type="application/pdf")
       span Descargar
       i.fas.fa-file-download
 
-    a.boton--sm.color-acento-contenido.texto-blanco.me-3(:href="obtenerLink('/downloads/prueba.pdf')" target="_blank" type="application/pdf")
+    a.boton--sm.color-acento-contenido.texto-blanco.me-3(:href="obtenerLink('downloads/prueba.pdf')" target="_blank" type="application/pdf")
       span Descargar
       i.fas.fa-file-download
 
-    a.boton--sm.color-acento-botones.me-3(:href="obtenerLink('/downloads/prueba.pdf')" target="_blank" type="application/pdf")
+    a.boton--sm.color-acento-botones.me-3(:href="obtenerLink('downloads/prueba.pdf')" target="_blank" type="application/pdf")
       span Descargar
       i.fas.fa-file-download
 
   Separador
+
+  .titulo-segundo.color-acento-botones
+    h2.mb-2 Botones de audio
+  .d-flex.mb-5
+    Audio.color-primario.mx-3(
+      :audio="require('@/assets/componentes/audios/audio-ej.mp3')"
+      @audio-hover="mostrarIndicadorAudio = false"
+    )
+      .indicador--click(v-if="mostrarIndicadorAudio")
+    Audio.color-secundario.mx-3(:audio="require('@/assets/componentes/audios/audio-ej.mp3')")
+    Audio.color-acento-contenido.mx-3(:audio="require('@/assets/componentes/audios/audio-ej.mp3')")
+    Audio.color-acento-botones.mx-3(:audio="require('@/assets/componentes/audios/audio-ej.mp3')")
+  Separador
+  .titulo-segundo.color-acento-botones
+    h2.mb-2 Tarjetas Audio 
+  .row
+    .col-lg-6
+      TarjetaAudio.color-primario.mb-3(
+        texto="Texto de muestra "
+        :audio="require('@/assets/componentes/audios/audio-ej.mp3')"
+        @audio-hover="mostrarIndicadorTarjetaAudio = false"
+      )
+        .indicador--click(v-if="mostrarIndicadorTarjetaAudio")
+      TarjetaAudio.color-secundario.mb-3(
+        texto="Texto de muestra "
+        :audio="require('@/assets/componentes/audios/audio-ej.mp3')")
+      TarjetaAudio.color-acento-contenido.mb-3(
+        texto="Texto de muestra "
+        :audio="require('@/assets/componentes/audios/audio-ej.mp3')")
+      TarjetaAudio.color-acento-botones.mb-3(
+        texto="Texto de muestra "
+        :audio="require('@/assets/componentes/audios/audio-ej.mp3')")
+  Separador
+
 
   #listas.titulo-segundo.color-acento-botones
     h2 Listas
@@ -670,7 +704,6 @@ div
       .cajon.color-primario.p-4.mb-4
         .h5 Cajón texto color
         p Se puede usar dos o más columnas para diagramar el texto, estos elementos pueden presentar contenedores que permitan diferenciar ideas o conceptos.
-    
     .col-lg-8
       .cajon.color-secundario.p-4.mb-4
         .h5 Cajón texto color
@@ -1699,7 +1732,7 @@ div
         h3 Título del recurso
         p.mb-4 There is no right answer. The splendor of the mystery is that you don’t understand. Your rapidograph pens are dried up, the x-acto blades in your bag are rusty, and your mind is dull. Stop clicking your mouse, get messy, go back to the basics and make something original. Why are you reading all of this?
         
-        a.boton.color-acento-contenido.texto-blanco(:href="obtenerLink('/downloads/prueba.pdf')" target="_blank" type="application/pdf")
+        a.boton.color-acento-contenido.texto-blanco(:href="obtenerLink('downloads/prueba.pdf')" target="_blank" type="application/pdf")
           span Descargar
           i.fas.fa-file-download
 
@@ -1717,7 +1750,7 @@ div
             h3.mb-1 Título del recurso
             p.text-small Consideraciones generales de tratamiento clínico del paciente con COVID-19 en el servicio de urgencias  
           .col-sm-auto
-            a.boton.color-acento-contenido.texto-blanco(:href="obtenerLink('/downloads/prueba.pdf')" target="_blank")
+            a.boton.color-acento-contenido.texto-blanco(:href="obtenerLink('downloads/prueba.pdf')" target="_blank")
               span Descargar
               i.fas.fa-file-download
 
@@ -1734,26 +1767,26 @@ div
             h3.mb-1 Título del recurso
             p.text-small Consideraciones generales de tratamiento clínico del paciente con COVID-19 en el servicio de urgencias 
           .col-sm-auto
-            a.boton.color-acento-contenido(:href="obtenerLink('/downloads/prueba.pdf')" target="_blank")
+            a.boton.color-acento-contenido(:href="obtenerLink('downloads/prueba.pdf')" target="_blank")
               span Descargar
               i.fas.fa-file-download
 
   .h5 Ejemplo: Llamado a la acción 3 Recursos externos versión simplificada
   .row
     .col-lg-6
-      a.anexo.mb-4(:href="obtenerLink('/downloads/prueba.pdf')" target="_blank")
+      a.anexo.mb-4(:href="obtenerLink('downloads/prueba.pdf')" target="_blank")
         .anexo__icono
           img(src="@/assets/template/icono-pdf.svg")
         .anexo__texto
           p Anexo. Consideraciones generales de tratamiento clínico del paciente con COVID-19 en el servicio de urgencias
         
-      a.anexo.mb-4(:href="obtenerLink('/downloads/prueba.pdf')" target="_blank")
+      a.anexo.mb-4(:href="obtenerLink('downloads/prueba.pdf')" target="_blank")
         .anexo__icono
           img(src="@/assets/template/icono-doc.svg")
         .anexo__texto
           p Anexo. Consideraciones generales de tratamiento clínico del paciente con COVID-19 en el servicio de urgencias
         
-      a.anexo.mb-4(:href="obtenerLink('/downloads/prueba.pdf')" target="_blank")
+      a.anexo.mb-4(:href="obtenerLink('downloads/prueba.pdf')" target="_blank")
         .anexo__icono
           img(src="@/assets/template/icono-xls.svg")
         .anexo__texto
@@ -1766,19 +1799,19 @@ div
           p Anexo. Consideraciones generales de tratamiento clínico del paciente con COVID-19 en el servicio de urgencias
         
     .col-lg-6
-      a.anexo.mb-4(:href="obtenerLink('/downloads/prueba.pdf')" target="_blank")
+      a.anexo.mb-4(:href="obtenerLink('downloads/prueba.pdf')" target="_blank")
         .anexo__icono
           img(src="@/assets/template/icono-zip.svg")
         .anexo__texto
           p Anexo. Consideraciones generales de tratamiento clínico del paciente con COVID-19 en el servicio de urgencias
         
-      a.anexo.mb-4(:href="obtenerLink('/downloads/prueba.pdf')" target="_blank")
+      a.anexo.mb-4(:href="obtenerLink('downloads/prueba.pdf')" target="_blank")
         .anexo__icono
           img(src="@/assets/template/icono-ppt.svg")
         .anexo__texto
           p Anexo. Consideraciones generales de tratamiento clínico del paciente con COVID-19 en el servicio de urgencias
         
-      a.anexo(:href="obtenerLink('/downloads/prueba.pdf')" target="_blank")
+      a.anexo(:href="obtenerLink('downloads/prueba.pdf')" target="_blank")
         .anexo__icono
           img(src="@/assets/template/icono-xml.svg")
         .anexo__texto
