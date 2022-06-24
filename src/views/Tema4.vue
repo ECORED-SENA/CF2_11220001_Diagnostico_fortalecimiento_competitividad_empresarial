@@ -22,25 +22,29 @@
     figure.mb-4
       .video
         iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
-    #t_4_1.titulo-segundo.color-acento-contenido
-      h2 4.1. Fijación de objetivos 
-    p Una funcionalidad adicional de la matriz DOFA es, que como define el marco referencial para la planeación, sirve para definir los objetivos empresariales tanto los corporativos como funcionales o de unidad de negocio. 
-    p En el siguiente video se muestra cómo la matriz DOFA facilita este propósito:
-    .row.justify-content-center.mb-4.mt-5
-      .col-lg-8.col22
-        p.text-center <strong>Recomendaciones o sugerencias para el desarrollo estratégico – fijación de objetivos</strong>
-    figure.mb-4
-      .video
-        iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
-    #t_4_2.titulo-segundo.color-acento-contenido
-      h2 4.2. Determinación de estrategias
-    p Todos los objetivos se valen de estrategias para su logro, y las conclusiones estratégicas permiten realizar esta fijación estratégica, como se muestra en el siguiente vídeo:
+    separador
+    .row.bgt41
+      #t_4_1.titulo-segundo.color-acento-contenido
+        h2 4.1. Fijación de objetivos 
+      p Una funcionalidad adicional de la matriz DOFA es, que como define el marco referencial para la planeación, sirve para definir los objetivos empresariales tanto los corporativos como funcionales o de unidad de negocio. 
+      p En el siguiente video se muestra cómo la matriz DOFA facilita este propósito:
+      .row.justify-content-center.mb-4.mt-5
+        .col-lg-8.col22
+          p.text-center <strong>Recomendaciones o sugerencias para el desarrollo estratégico – fijación de objetivos</strong>
+      figure.mb-4
+        .video
+          iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+      separador
+      #t_4_2.titulo-segundo.color-acento-contenido
+        h2 4.2. Determinación de estrategias
+      p Todos los objetivos se valen de estrategias para su logro, y las conclusiones estratégicas permiten realizar esta fijación estratégica, como se muestra en el siguiente vídeo:
     .row.justify-content-center.mb-4.mt-5
       .col-lg-8.col22
         p.text-center <strong>Recomendaciones o sugerencias para el desarrollo estratégico - determinación de estrategias y tácticas</strong>
     figure.mb-4
       .video
         iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+    separador
     #t_4_3.titulo-segundo.color-acento-contenido
       h2 4.3. Plan de acción
     p El marco referencial encontrado a partir de la metodología DOFA, permite no solo fijar objetivos corporativos que se deben traducir en objetivos funcionales de unidad de negocio, sino establecer todo un esquema de diseño de formulación de plan de acción, como las iniciativas para el logro de los objetivos.
@@ -51,40 +55,43 @@
     figure.mb-4
       .video
         iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
-    #t_4_4.titulo-segundo.color-acento-contenido
-      h2 4.4. Control y seguimiento
-    p El control y seguimiento según la metodología establecida, exige medidas diferenciales para cada posición estratégica, lo cual se aborda en el siguiente video:
-    .row.justify-content-center.mb-4.mt-5
-      .col-lg-8.col22
-        p.text-center <strong>Control y seguimiento al plan de acción por cada iniciativa de desarrollo</strong>
-    figure.mb-4
-      .video
-        iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
-      .row.justify-content-center.mt-5
-        .col-lg-8.bg9.p-5
-          .row  
-            .col-lg-9.mb-5
-              p La siguiente figura muestra un formato de ejemplo que se debe diligenciar para llevar el registro y control de las iniciativas del plan de acción.
-            .col-lg-3
-              .row
-                .col-auto
-                  a.boton.color-acento-botones.indicador__container(@click="modal1 = true")
-                    span Observar
-                    i.fas.fa-file
-                    .indicador--click(v-if="mostrarIndicador")
-              ModalA(:abrir-modal.sync="modal1")
-                .row.justify-content-center
-                  .col-md-12
-                    .titulo-sexto.color-acento-contenido.mt-4
-                      h5.text-small Figura 9. 
-                      span.text-small  Formato para el registro y control de las iniciativas del plan de acción.
-                    .row.justify-content-center
-                      .col-md-12
-                        figure
-                          img(src='@/assets/curso/tema4/8.svg', alt='Texto que describa la imagen')     
-    #t_4_5.titulo-segundo.color-acento-contenido
-      h2 4.5. Acciones correctivas
-    p Las acciones correctivas al plan de desarrollo empresarial, ya no se hacen desde lo particular (posiciones relativas) sino como un todo, que recoge el modelo de desarrollo empresarial. Para la empresa es la conjugación de iniciativas de desarrollo que deben buscar la evolución global; desde este enfoque, el siguiente video, explica cómo hacerlo:
+    separador
+    .row.bgt42  
+      #t_4_4.titulo-segundo.color-acento-contenido
+        h2 4.4. Control y seguimiento
+      p El control y seguimiento según la metodología establecida, exige medidas diferenciales para cada posición estratégica, lo cual se aborda en el siguiente video:
+      .row.justify-content-center.mb-4.mt-5
+        .col-lg-8.col22
+          p.text-center <strong>Control y seguimiento al plan de acción por cada iniciativa de desarrollo</strong>
+      figure.mb-4
+        .video
+          iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+        .row.justify-content-center.mt-5
+          .col-lg-8.bg9.p-5
+            .row  
+              .col-lg-9.mb-5
+                p La siguiente figura muestra un formato de ejemplo que se debe diligenciar para llevar el registro y control de las iniciativas del plan de acción.
+              .col-lg-3
+                .row
+                  .col-auto
+                    a.boton.color-acento-botones.indicador__container.aqw(@click="modal1 = true")
+                      span <strong>Observar</strong>
+                      i.fas.fa-file
+                      .indicador--click(v-if="mostrarIndicador")
+                ModalA(:abrir-modal.sync="modal1")
+                  .row.justify-content-center
+                    .col-md-12
+                      .titulo-sexto.color-acento-contenido.mt-4
+                        h5.text-small Figura 9. 
+                        span.text-small  Formato para el registro y control de las iniciativas del plan de acción.
+                      .row.justify-content-center
+                        .col-md-12
+                          figure
+                            img(src='@/assets/curso/tema4/8.svg', alt='Texto que describa la imagen')     
+      separador
+      #t_4_5.titulo-segundo.color-acento-contenido
+        h2 4.5. Acciones correctivas
+      p Las acciones correctivas al plan de desarrollo empresarial, ya no se hacen desde lo particular (posiciones relativas) sino como un todo, que recoge el modelo de desarrollo empresarial. Para la empresa es la conjugación de iniciativas de desarrollo que deben buscar la evolución global; desde este enfoque, el siguiente video, explica cómo hacerlo:
     .row.justify-content-center.mb-4.mt-5
       .col-lg-8.col22
         p.text-center <strong>Ajuste y control al plan de desarrollo y competitividad de la empresa</strong>

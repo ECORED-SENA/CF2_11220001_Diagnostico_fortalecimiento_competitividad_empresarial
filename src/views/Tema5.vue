@@ -22,43 +22,43 @@
                   p No debe ser una explicación amplia o extensa, pero debe expresar el sentido del diagnóstico, qué se quiere saber, para qué, etc.
                   p No hay que confundir este objetivo con los objetivos del plan derivado del diagnóstico.
 
-              .row.p-4(numero="2" titulo="Descripción del plan de trabajo o proceso")
+              .row.p-4.hu(numero="2" titulo="Descripción del plan de trabajo o proceso")
                 .row.justify-content-center
                   img(src='@/assets/curso/tema5/3.png', alt='Texto que describa la imagen')
                   p.mt-4 Consiste en describir cuáles fueron los pasos o fases que se adelantaron para la realización del diagnóstico. Como primer punto es importante describir la muestra.
-              .row.p-4(numero="3" titulo="Participación")
+              .row.p-4.hu(numero="3" titulo="Participación")
                 .row.justify-content-center
                   img(src='@/assets/curso/tema5/4.png', alt='Texto que describa la imagen')
                   p.mt-4 Consiste en describir cuáles fueron los pasos o fases que se adelantaron para la realización del diagnóstico. Como primer punto es importante describir la muestra.
-              .row.p-4(numero="4" titulo="Técnica o metodología")
+              .row.p-4.hu(numero="4" titulo="Técnica o metodología")
                 .row.justify-content-center
                   img(src='@/assets/curso/tema5/5.png', alt='Texto que describa la imagen')
                   p.mt-4 Se debe aclarar que técnica se desarrolló para la captura de la información, si fue más de una explicar, así mismo, qué tipos de instrumentos se desarrollaron y aplicaron, cuántas personas participaron efectivamente, empleados y otros públicos de interés como clientes, proveedores, etc.
-              .row.p-4(numero="5" titulo="Describir el horizonte")
+              .row.p-4.hu(numero="5" titulo="Describir el horizonte")
                 .row.justify-content-center
                   img(src='@/assets/curso/tema5/6.png', alt='Texto que describa la imagen')
                   p.mt-4 Tiempo en el cual se llevó a cabo el proceso de diagnóstico, para de cada fase, el diseño, la preparación, captura de información, análisis, etc. También decir cómo se desarrolló el análisis e interpretación de la información, quiénes participaron, qué técnicas se emplearon, etc.
-              .row.p-4(numero="6" titulo="Análisis de informaciones")
+              .row.p-4.hu(numero="6" titulo="Análisis de informaciones")
                 .row.justify-content-center
                   img(src='@/assets/curso/tema5/7.png', alt='Texto que describa la imagen')
                   p.mt-4 Se pueden presentar las herramientas de análisis utilizadas que ayudaron a organizar e identificar las variables críticas o factores (más relevantes), matriz BCG, diagrama causa efecto y el análisis DOFA, entre otros posibles que haya utilizado.
-              .row.p-4(numero="7" titulo="Descripción de resultados")
+              .row.p-4.hu(numero="7" titulo="Descripción de resultados")
                 .row.justify-content-center
                   img(src='@/assets/curso/tema5/8.png', alt='Texto que describa la imagen')
                   p.mt-4 A partir de la organización de los datos que encontraron. Si son datos cuantitativos o cualitativos, se buscaba la descripción o la medición de los hallazgos. Presentar estos resultados con los recursos gráficos, estadísticos o de indicador que los evidencian.
-              .row.p-4(numero="8" titulo="Técnica para la formulación")
+              .row.p-4.hu(numero="8" titulo="Técnica para la formulación")
                 .row.justify-content-center
                   img(src='@/assets/curso/tema5/9.png', alt='Texto que describa la imagen')
                   p.mt-4 Cómo llegó a la propuesta de soluciones como la técnica derivada de DOFA, árbol de problemas y árbol de soluciones, etc.
-              .row.p-4(numero="9" titulo="Conclusiones")
+              .row.p-4.hu(numero="9" titulo="Conclusiones")
                 .row.justify-content-center
                   img(src='@/assets/curso/tema5/10.png', alt='Texto que describa la imagen')
                   p.mt-4 Establecer si se logró el objetivo inicial y los hallazgos más relevantes dentro del informe.
-              .row.p-4(numero="10" titulo="Anexos")
+              .row.p-4.hu(numero="10" titulo="Anexos")
                 .row.justify-content-center
                   img(src='@/assets/curso/tema5/11.png', alt='Texto que describa la imagen')
                   p.mt-4 Como complemento del cuerpo de documento de informe del diagnóstico, puede adjuntar los instrumentos de recolección que se usaron: formularios para entrevistas, encuestas, guías de observación, sin llegar a dar ejemplos, ni citar información recopilada, solo el esquema de diseño del instrumento. Si son electrónicos se puede fijar la imagen.
-              .row.p-4(numero="11" titulo="Glosario")
+              .row.p-4.hu(numero="11" titulo="Glosario")
                 .row.justify-content-center
                   img(src='@/assets/curso/tema5/12.png', alt='Texto que describa la imagen')
                   p.mt-4 El documento debe llevar un glosario de términos, ya que muchos aspectos no son del lenguaje común de los participantes o interesados en el informe.

@@ -22,43 +22,43 @@
           figure
             img(src='@/assets/curso/tema2/2.svg', alt='Texto que describa la imagen')
 
-        .tarjeta.color-acento-botones.p-3(x="7.5%" y="47%" numero="")
+        .tarjeta.color-acento-botones.p-3(x="7.5%" y="47%" numero="+")
 
           p <strong>Externos.</strong> Es externo y de aplicabilidad para la empresa cuando desde el entorno se fija y la empresa lo adopta como meta o medida de seguimiento, está disponible desde fuera de la compañía, y la empresa lo utiliza para compararse, por ejemplo: el índice de crecimiento del PIB para la industria o sector en que se participa o de la región donde se está operando la empresa, lo que traduce que las empresa deberá tener un crecimiento económico similar al mismo; otro ejemplo, puede ser la participación laboral entre hombres y mujeres, que para el caso de un nuevo puesto la empresa establecerá un índice de participación de mujeres y otro de hombres, estos indicadores los dispone el entorno, en que opera la empresa y pueden ser un referente.
 
 
-        .tarjeta.color-acento-botones.p-3(x="21.5%" y="47%" numero="")
+        .tarjeta.color-acento-botones.p-3(x="21.5%" y="47%" numero="+")
 
           p <strong>Internos.</strong>  Los indicadores internos son aquellos que establece la empresa de manera discrecional a partir de su necesidad y de lo que quiera medir, del tipo de objetivo, actividad o función, no todas las empresas, por ende, tienen los mismos indicadores, por ejemplo: las empresas industriales requieren medir el nivel de improductividad fallas en sus equipos, y en otras empresas se requiere un indicador alistamiento de máquinas. 
         
-        .tarjeta.color-acento-botones.p-3(x="35.5%" y="47%" numero="")
+        .tarjeta.color-acento-botones.p-3(x="35.5%" y="47%" numero="+")
 
           p <strong>Cualitativos.</strong>   Miden las percepciones, opiniones y preferencias, gustos; en la práctica de presentación, de estos indicadores son expuestas de forma cuantitativa, porque lo cualitativo lleva frecuencias de ocurrencia y es allí, donde adopta un sentido cuantitativo y numérico, pero no hay que olvidar que expresa cualidades. Como ejemplo de indicadores cualitativos, se puede mencionar: el índice de corrupción nacional o internacional, el nivel de satisfacción de los clientes de un producto o servicio, la rapidez de atención a los clientes, etc. 
-        .tarjeta.color-acento-botones.p-3(x="50%" y="47%" numero="")
+        .tarjeta.color-acento-botones.p-3(x="50%" y="47%" numero="+")
 
           p <strong>Cuantitativos.</strong>   Miden y cuantifican resultados, recursos, casos etc., son de naturaleza cuantitativos. Dentro de los ejemplos de indicadores cuantitativos se puede mencionar el índice de eficacia en cierre de ventas, lo ingresos por ventas de cierta línea de producto, el porcentaje de producto defectuoso, etc.
-        .tarjeta.color-acento-botones.p-3(x="64.5%" y="47%" numero="")
+        .tarjeta.color-acento-botones.p-3(x="64.5%" y="47%" numero="+")
 
           p <strong>Compuestos.</strong>    Cuando se correlacionan dos o más variables, por ejemplo, el margen de contribución, que es el resultado de dividir los costos unitarios entre el precio de venta de un producto.
-        .tarjeta.color-acento-botones.p-3(x="78.4%" y="47%" numero="")
+        .tarjeta.color-acento-botones.p-3(x="78.4%" y="47%" numero="+")
 
           p <strong>Estratégicos y Operativos.</strong>     Las empresas fijan objetivos corporativos como crecimiento, pero para identificar el cumplimiento se tienen que seguir indicadores de sentido estratégico como es el índice de participación en el mercado, el crecimiento del Margen de rentabilidad, pues de ellos dependerá la posibilidad de invertir. Por otra parte, los indicadores operativos son aquellos asociados a los niveles funcionales y de agregación material de valor, por ejemplo: tiempo promedio para cargar un camión de cervezas, número de pedidos devueltos. 
-        .tarjeta.color-acento-botones.p-3(x="92.5%" y="47%" numero="")
+        .tarjeta.color-acento-botones.p-3(x="92.5%" y="47%" numero="+")
 
           p <strong>Funcionales.</strong>      Este enfoque de clasificación de los indicadores de gestión se aborda en conformidad la organización de la empresa y sus áreas funcionales.
-        .tarjeta.color-acento-botones.p-3(x="91.5%" y="92%" numero="")
+        .tarjeta.color-acento-botones.p-3(x="91.5%" y="92%" numero="+")
 
           p <strong>Indicadores financieros.</strong>       Focalizados en el manejo de los recursos monetarios y de financiación de la operación de la empresa, entre los cuales se pueden mencionar: Incremento del margen de utilidad, índice ROI (Retorno sobre la inversión), nivel de endeudamiento, y el punto de equilibrio.
-        .tarjeta.color-acento-botones.p-3(x="75%" y="92%" numero="")
+        .tarjeta.color-acento-botones.p-3(x="75%" y="92%" numero="+")
 
           p <strong>Indicadores de producción.</strong>       Se relacionan con los indicadores de logística, pero se dan después de ella, para la transformación o elaboración de los productos, tiempos de ajuste de máquina, nivel de desperdicio, número de reprocesos, etc.
-        .tarjeta.color-acento-botones.p-3(x="58.3%" y="92%" numero="")
+        .tarjeta.color-acento-botones.p-3(x="58.3%" y="92%" numero="+")
 
           p <strong>Indicadores de logística.</strong>        Miden el nivel de rendimiento, oportunidad, cumplimiento y el nivel de optimización de los procesos, para mejorar la calidad e incrementar la productividad. Son utilizados para hacer mejora continua; por ejemplo: días de rotación de inventario, mínimos de stock, tiempo de reorden y aprovisionamiento, porcentaje de costo de fletes.
-        .tarjeta.color-acento-botones.p-3(x="41.5%" y="92%" numero="")
+        .tarjeta.color-acento-botones.p-3(x="41.5%" y="92%" numero="+")
 
           p <strong>Comunicación en redes sociales.</strong>         Cuando se quiere conocer el impacto de las publicaciones realizadas en las redes sociales, así como la participación en las ventas, por ejemplo: incremento del número de seguidores, alcance espero cubierto y real.
-        .tarjeta.color-acento-botones.p-3(x="25%" y="92%" numero="")
+        .tarjeta.color-acento-botones.p-3(x="25%" y="92%" numero="+")
 
           p <strong>Indicadores de para la función de ventas.</strong>          Es un conjunto de indicadores que tienen como fin, medir el desempeño en función de las ventas y facturación de un producto o servicio. Esta función puede generar varios indicadores como, por ejemplo: satisfacción del cliente, nivel de facturación, eficacia en visitas de ventas, nivel de descuento ofertado para vender, número de visitas, horas con mayor tránsito, ventas por visita, facturación promedio, etc.
 
@@ -173,7 +173,7 @@
             .col-lg-1
             .col-lg-10
               p Establece que los indicadores de gestión, deben expresar que la empresa aplica los mejores métodos:
-              .row.bg22
+              .row.bg23
                 .col-lg-4
                   img(src='@/assets/curso/tema2/7.svg', alt='Texto que describa la imagen')   
                 .col-lg-8
@@ -201,7 +201,7 @@
               .col-lg-1
               .col-lg-10
                 p Establece que los indicadores de gestión, deben expresar que la empresa aplica los mejores métodos:
-                .row.bg22
+                .row.bg23
                   .col-lg-4
                     img(src='@/assets/curso/tema2/8.svg', alt='Texto que describa la imagen')   
                   .col-lg-8
@@ -263,7 +263,7 @@
 
             .tarjeta.color-primario
               .text-white.p-4
-                p Una cadena ininterrumpida de comparaciones. 
+                p.mt-2 Una cadena ininterrumpida de comparaciones. 
 
         .col-md-3.col-lg.mb-5.mb-lg-0
           .tarjeta-avatar
@@ -271,7 +271,7 @@
 
             .tarjeta.color-primario
               .text-white.p-4
-                p No contar con incertidumbre de la información real.
+                p.mt-2 No contar con incertidumbre de la información real.
  
         .col-md-3.col-lg.mb-5.mb-lg-0
           .tarjeta-avatar
@@ -279,13 +279,13 @@
 
             .tarjeta.color-primario
               .text-white.p-4
-                p Sustentarse en registros y documentos.
+                p.mt-2 Sustentarse en registros y documentos.
         .col-md-3.col-lg.mb-5.mb-lg-0
           .tarjeta-avatar
             img(src='@/assets/curso/tema2/14.svg' alt='AvatarTop')
             .tarjeta.color-primario
               .text-white.p-4
-                p Ajustes y recalibraciones del indicador que impulsan la evolución.
+                p.mt-2 Ajustes y recalibraciones del indicador que impulsan la evolución.
     .row.justify-content-center.mt-5
       .col-lg-8.bg9.py-md-4.py-2.px-5
         .row.align-items-center 
@@ -294,7 +294,7 @@
           .col-lg-3
             .row
               .col-auto
-                a.boton.color-acento-botones.indicador__container(@click="modal1 = true")
+                a.boton.color-acento-botones.indicador__container.aqw2(@click="modal1 = true")
                   span Observar
                   i.fas.fa-file
                   .indicador--click(v-if="mostrarIndicador")

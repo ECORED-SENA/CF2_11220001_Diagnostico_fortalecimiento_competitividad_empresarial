@@ -4,8 +4,8 @@ export default {
       'Formulación diagnóstica y reconocimiento de iniciativas de desarrollo.',
     descripcionCurso:
       'En este componente, el aprendiz focaliza su aprendizaje en la identificación de los factores críticos para la competitividad empresarial, la priorización y generación de conclusiones de diagnóstico, como base de los nuevos objetivos y acciones estratégicas, de tal manera, que describa el esquema de planeación del futuro inmediato de la empresa, en un esquema de mejor posición competitiva.',
-    imagenBannerPrincipal: require('@/assets/curso/banner-princiapal.svg'),
-    fondoBannerPrincipal: require('@/assets/curso/fondo-banner-principal.png'),
+    imagenBannerPrincipal: require('@/assets/curso/banner-princiapal.png'),
+    fondoBannerPrincipal: require('@/assets/curso/fondo-banner-principal.svg'),
   },
   menuPrincipal: {
     menu: [

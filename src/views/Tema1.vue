@@ -11,52 +11,49 @@
       .titulo-sexto.color-acento-contenido.mt-4
         h5 Figura 1. 
         span Fases del proceso de información diagnóstica.
-      .row.mb-4.mb-md-5(data-aos="fade-down")
-        .col-lg-4.mb-3.mb-md-0
-          .tarjeta.tarjeta-foto-hover
-            .tarjeta-foto-hover__img: img(src='@/assets/curso/tema1/1.png')
-            .tarjeta-foto-hover__titulo.d-flex.justify-content-left.align-items-center.p-2.bgc1
-              h4.mb-0.text-white Generación de información
-            .tarjeta-foto-hover__tarjeta.bg-degrade.d-flex.align-items-center.justify-content-center.a1
-
-              .row.bgc1
-                h5.text-white.mt-4 Generación de información
-                .row.bgc2
-                  p.mb-4.mt-4 Forma o instrumentos para recoger la información.
-                  p.mb-4 Metodología para capturar la información.
-                  p.mb-5 Momento o frecuencia de recolección.
-
-
-        .col-lg-4.mb-3.mb-md-0
-          .tarjeta.tarjeta-foto-hover(@mouseover="mostrarIndicador = false")
-            .indicador--hover(v-if="mostrarIndicador")
-            .tarjeta-foto-hover__img: img(src='@/assets/curso/tema1/2.png')
-            .tarjeta-foto-hover__titulo.d-flex.justify-content-left.align-items-center.p-2.bgc1
-              h4.mb-0.text-white Organización de la información
-            .tarjeta-foto-hover__tarjeta.bg-degrade.d-flex.align-items-center.justify-content-center.a1
-              .row.bgc1
-                h5.text-white.mt-4 Organización de la información
-                .row.bgc2
-                  p.mb-4.mt-4 Proceso de compilación y procesamiento de la información/compilación.
-                  p.mb-4 Almacenamiento y soportes de la información.
-
-                  p.mb-5 Ordenamiento de la información.
-
-
-        .col-lg-4.mb-3.mb-md-0
-          .tarjeta.tarjeta-foto-hover
-            .tarjeta-foto-hover__img: img(src='@/assets/curso/tema1/3.png')
-            .tarjeta-foto-hover__titulo.d-flex.justify-content-left.align-items-center.p-2.bgc1
-              h4.mb-0.text-white Análisis e interpretación de la información
-            .tarjeta-foto-hover__tarjeta.bg-degrade.d-flex.align-items-center.justify-content-center.a1
-              .row.bgc1
-                h5.text-white.mt-4 Análisis e interpretación de la información
-
-                .row.bgc2
-                  p.mb-4.mt-4 Clasificar la información  como aspectos conducentes al éxto y al desmejoramiento, ya sean internos o externos.
-
-                  p.mb-4 Establecer  sugerencias o posibles orientaciones a seguir.
-
+    .row.justify-content-center.mb-2
+      .col-lg-4.mb-4(data-aos="zoom-in")
+        .crd_hover_txt1
+          .crd_hover_txt--img.mb-0         
+            img(src="@/assets/curso/tema1/1.png")
+          .crd_hover_txt--font
+            .row.bg-color11.align-items-center
+              .col.p-2
+                h4.text-white.mb-0 Generación de información
+            .row.bg-color12
+              .col
+                .p-2
+                  p Forma o instrumentos para recoger la información.
+                  p Metodología para capturar la información.
+                  p.mb-0 Momento o frecuencia de recolección.
+      .col-lg-4.mb-4(data-aos="zoom-in")
+        .crd_hover_txt1
+          .crd_hover_txt--img.mb-0         
+            img(src="@/assets/curso/tema1/2.png")
+          .crd_hover_txt--font
+            .row.bg-color11.align-items-center
+              .col.p-2
+                h4.text-white.mb-0 Organización de la información
+            .row.bg-color12
+              .col
+                .p-2
+                  p Proceso de compilación y procesamiento de la información/compilación.
+                  p Almacenamiento y soportes de la información.
+                  p.mb-0 Ordenamiento de la información.
+      .col-lg-4.mb-4(data-aos="zoom-in")
+        .crd_hover_txt1
+          .crd_hover_txt--img.mb-0         
+            img(src="@/assets/curso/tema1/3.png")
+          .crd_hover_txt--font
+            .row.bg-color11.align-items-center
+              .col.p-2
+                h4.text-white.mb-0 Análisis e interpretación de la información
+            .row.bg-color12
+              .col
+                .p-2
+                  p Clasificar la información  como aspectos conducentes al éxito y al desmejoramiento, ya sean internos o externos.
+                  p.mb-0 Establecer sugerencias o posibles orientaciones a seguir.
+ 
       separador
       .row
         #t_1_1.titulo-segundo.color-acento-contenido
@@ -84,9 +81,9 @@
                     | El nivel de detalle y calidad de información a recoger.
             .col-md-12
               .cajon.color-primario.p-3.mb-1
-                p La información se puede recoger de forma cualitativa o cuantitativa, puede ser de tipo descriptivo o cerrada, entre otras; por lo que, desarrollo de  instrumentos adecuados para la captura de estos posibles tipos y formas de información, los cuales pueden desarrollarse:
+                p.mb-0 La información se puede recoger de forma cualitativa o cuantitativa, puede ser de tipo descriptivo o cerrada, entre otras; por lo que, desarrollo de  instrumentos adecuados para la captura de estos posibles tipos y formas de información, los cuales pueden desarrollarse:
            
-            .row
+            .row.mt-4
               .col-sm.mb-5.mb-sm-0
                 ul.lista-ul--color
                   li.mb-0 
@@ -112,7 +109,7 @@
 
               p.mb-0 Técnicas de recolección de información.
             .col-lg-4
-              a.boton.me-3.indicador__container(
+              a.boton.me-3.indicador__container.justify-content-center(
                 :href="obtenerLink('/downloads/prueba.pdf')"
                 target="_blank"
                 type="application/pdf"
@@ -123,57 +120,58 @@
                 .indicador--click(v-if="mostrarIndicador")
     p Ahora, corresponde en conformidad al plan de trabajo y agendamiento para la captura de información, adelantar las jornadas de trabajo para la captura de información, el cual se presenta en el siguiente recurso.
     .row.justify-content-center.mt-4
-      h3.text-center Plan de trabajo y agendamiento para la captura de información 
+      .row.justify-content-center
+        .col-lg-6.tte
+          h3.text-center Plan de trabajo y agendamiento para la captura de información 
       p.text-center.mb-0 En el presente recurso se abordarán los elementos necesarios para obtener una buena generación de la información.
       p.text-center para generar buena información, se tienen en cuenta tres fases:
     .row.justify-content-center.mt-5
-      .col-lg-1
-      .col-lg-3.wii
+      .col-lg-4.wii.mt-4
         img(src='@/assets/curso/tema1/5.png', alt='Texto que describa la imagen')
         .row.bgc3.p-2
-          p.text-center.text-small.mt-2 <strong>Preparación y alistamiento de los recursos</strong>
-        .row.mt-2.justify-content-center
-          .col-lg-4
-            a.boton.me-3.indicador__container(
-              :href="obtenerLink('/downloads/prueba.pdf')"
-              target="_blank"
-              type="application/pdf"
-              @mouseover="mostrarIndicador = false"
-            )
-              span Descargar
-              i.fas.fa-file-download
-              .indicador--click(v-if="mostrarIndicador")
-      .col-lg-3.wii
+          p.text-center.text-small.mt-2.mb-0 <strong>Preparación y alistamiento de los recursos</strong>
+          .row.mt-2.justify-content-center
+            .col-lg-4
+              a.boton.me-3.indicador__container.aqw(
+                :href="obtenerLink('/downloads/prueba.pdf')"
+                target="_blank"
+                type="application/pdf"
+                @mouseover="mostrarIndicador = false"
+              )
+                span Descargar
+                i.fas.fa-file-download
+                .indicador--click(v-if="mostrarIndicador")
+      .col-lg-4.wii.mt-4
         img(src='@/assets/curso/tema1/6.png', alt='Texto que describa la imagen')
         .row.bgc3.p-2
-          p.text-center <strong>Fuentes de información</strong>
-        .row.mt-2.justify-content-center
-          .col-lg-4
-            a.boton.me-3.indicador__container(
-              :href="obtenerLink('/downloads/prueba.pdf')"
-              target="_blank"
-              type="application/pdf"
-              @mouseover="mostrarIndicador = false"
-            )
-              span Descargar
-              i.fas.fa-file-download
-              .indicador--click(v-if="mostrarIndicador")
-      .col-lg-3.wii
+          p.text-center.mb-0 <strong>Fuentes de información</strong>
+          .row.mt-2.justify-content-center
+            .col-lg-4
+              a.boton.me-3.indicador__container.aqw(
+                :href="obtenerLink('/downloads/prueba.pdf')"
+                target="_blank"
+                type="application/pdf"
+                @mouseover="mostrarIndicador = false"
+              )
+                span Descargar
+                i.fas.fa-file-download
+                .indicador--click(v-if="mostrarIndicador")
+      .col-lg-4.wii.mt-4
         img(src='@/assets/curso/tema1/7.png', alt='Texto que describa la imagen')
         .row.bgc3.p-2
-          p.text-center <strong>Captura de información</Strong>
-        .row.mt-2.justify-content-center
-          .col-lg-4
-            a.boton.me-3.indicador__container(
-              :href="obtenerLink('/downloads/prueba.pdf')"
-              target="_blank"
-              type="application/pdf"
-              @mouseover="mostrarIndicador = false"
-            )
-              span Descargar
-              i.fas.fa-file-download
-              .indicador--click(v-if="mostrarIndicador")
-      .col-lg-1
+          p.text-center.mb-0 <strong>Captura de información</Strong>
+          .row.mt-2.justify-content-center
+            .col-lg-4
+              a.boton.me-3.indicador__container.aqw(
+                :href="obtenerLink('/downloads/prueba.pdf')"
+                target="_blank"
+                type="application/pdf"
+                @mouseover="mostrarIndicador = false"
+              )
+                span Descargar
+                i.fas.fa-file-download
+                .indicador--click(v-if="mostrarIndicador")
+
     separador
     .row.bg4
       #t_1_2.titulo-segundo.color-acento-contenido
@@ -198,6 +196,8 @@
             h5 Figura 2. 
             span Ordenamiento de la información.
           img(src='@/assets/curso/tema1/9.svg', alt='Texto que describa la imagen')
+      .row.justify-content-center
+        .col-lg-10    
           .tabla-b.color-acento-contenido.mb-5.mt-5
             .tabla-b__header
               .row
@@ -260,7 +260,7 @@
                   .col-lg-10
                     h5 Fortalezas
                   .col-lg-2
-                    img(src='@/assets/curso/tema1/ico1.svg', alt='Texto que describa la imagen')
+                    img.aqz(src='@/assets/curso/tema1/ico1.svg', alt='Texto que describa la imagen')
                 p.mt-2 Son aquellos aspectos que domina la empresa para su supervivencia, lo que le permite operar, por lo que se distingue, en qué es mejor que otros.
                 p Ejemplo: la calidad del producto, por ello le compran y sobre todo le recompran.
             .col-md-1.wa
@@ -270,7 +270,7 @@
                   .col-lg-10
                     h5 Debilidades
                   .col-lg-2
-                    img(src='@/assets/curso/tema1/ico2.svg', alt='Texto que describa la imagen')
+                    img.aqz(src='@/assets/curso/tema1/ico2.svg', alt='Texto que describa la imagen')
                 p.mt-2 Es el comportamiento que tiene una variable controlable dentro de un factor, que hace que los impactos para la empresa sean desfavorables y la puedan estar induciendo a fracasos.
                 p Ejemplo: retrasos en las entregas.
 
@@ -291,7 +291,7 @@
                       h5 Oportunidades
 
                     .col-lg-2
-                      img(src='@/assets/curso/tema1/ico3.svg', alt='Texto que describa la imagen')
+                      img.aqz(src='@/assets/curso/tema1/ico3.svg', alt='Texto que describa la imagen')
                   p.mt-2.mb-0 Son las posibilidades que se le presentan a la empresa de poder actuar en condiciones de favorabilidad o beneficio, desarrollo, crecimiento, porque el macroentorno se lo permite y lo favorece.
                   p Ejemplo: la reducción de los precios de los combustibles para una empresa transportadora.
               .col-md-1.wa
@@ -301,7 +301,7 @@
                     .col-lg-10
                       h5 Amenazas
                     .col-lg-2
-                      img(src='@/assets/curso/tema1/ico4.svg', alt='Texto que describa la imagen')
+                      img.aqz(src='@/assets/curso/tema1/ico4.svg', alt='Texto que describa la imagen')
                   p.mt-2 Son las posibilidades que uno o varios aspectos del macro o micro entorno afecten negativamente a la empresa, reduciendo su operación, beneficio, crecimiento, etc.
                   p Ejemplo: un aumento en los precios de los combustibles para una empresa transportadora.
     p.text-center Para hacer la clasificación de los factores y sus aspectos o variables, la técnica las dispone en una matriz 2x2 así:
@@ -338,12 +338,12 @@
             h5.mt-2 Participación de mercado frente a los considerados competencia
       p.text-center Estos cuadrantes se definen entre 2 variables:
       .col-lg-8
-        .row.justify-content-center
-          .col-lg-2
+        .row.justify-content-center.tt2
+          .col-lg-2.mt-4.mb-4
             img.tamimg(src='@/assets/curso/tema1/ico5.svg', alt='Texto que describa la imagen')
-          .col-lg-10.mt-3
+          .col-lg-10.mt-4
             p <strong>Crecimiento en el mercado:</strong> cómo aumentan las ventas.
-        .row.justify-content-center.mt-5
+        .row.justify-content-center.mt-5.tt3
           .col-lg-2
             img.tamimg(src='@/assets/curso/tema1/ico6.svg', alt='Texto que describa la imagen')
           .col-lg-10.mt-3
@@ -436,7 +436,7 @@
           .col-lg-3
             .row
               .col-auto
-                a.boton.color-acento-botones.indicador__container(@click="modal1 = true")
+                a.boton.color-acento-botones.indicador__container.aqw(@click="modal1 = true")
                   span Observar
                   i.fas.fa-file
                   .indicador--click(v-if="mostrarIndicador")
@@ -480,13 +480,13 @@
         p Una de las herramientas que permite este ejercicio con la información en los procesos de diagnóstico, es la estadística, la cual se define como la ciencia que se dedica al ordenamiento y análisis de conjuntos de datos para obtener descripciones, explicaciones o predicciones sobre aspectos percibidos y analizados.
         .row.justify-content-center.mt-5
           .col-lg-12.bg9.py-md-4.py-2.px-5
-            .row.align-items-center 
+            .row.align-items-center.mb-4
               .col-lg-9
                 p.text-center.mb-0 Los conceptos básicos de la estadística son:
               .col-lg-3
                 .row
                   .col-auto
-                    a.boton.color-acento-botones.indicador__container(@click="modal1 = true")
+                    a.boton.color-acento-botones.indicador__container.aqw(@click="modal1 = true")
                       span Observar
                       i.fas.fa-file
                       .indicador--click(v-if="mostrarIndicador")
@@ -502,7 +502,7 @@
                       p.mb-0 El cliente reconoce y le es muy importante que le mantengan la calidad del producto como el precio, por eso lo importante de añadir un valor o servicio extra.
                       p Como el producto se vuelve tendencia, es muy importante el aumento de la distribución o presencia comercial donde actúa para aumentar los nuevos clientes.
                     .col-md-1
-        p Algunos ejemplos del uso de estadística en Economía son:
+        p.mt-4 Algunos ejemplos del uso de estadística en Economía son:
         .row.mt-2
           .col-sm.mb-5.mb-sm-0
             ul.lista-ul--color
@@ -524,9 +524,9 @@
     .row.justify-content-center.bg10
       .col-lg-10.mt-4
         i.fa-solid.fa-table-list
-        h5 
-          i.fas.fa-table.col
-          span.col Diagrama de frecuencias o estratificación
+        h4
+          i.fas.fa-table.vs
+          span.vs Diagrama de frecuencias o estratificación
         p Es una técnica de distribución de frecuencias de una variable, que busca estratificar el comportamiento de esta, no denota un sentido de orden específico. El siguiente ejemplo muestra su enfoque de uso:
       
         AcordionA.mb-5(tipo="a" clase-tarjeta="tarjeta tarjeta--azul")
@@ -548,9 +548,9 @@
               .col-lg-1
       .col-lg-10
         i.fa-solid.fa-table-list
-        h5 
-          i.fas.fa-table.col
-          span.col  Histograma
+        h4
+          i.fas.fa-table.vs
+          span.vs  Histograma
         p Es la distribución del comportamiento de una variable continua que denota la distribución de las frecuencias a lo largo de la variable continua.
         AcordionA.mb-5(tipo="a" clase-tarjeta="tarjeta tarjeta--azul")
           .row(titulo="Ejemplo histograma")
@@ -573,9 +573,9 @@
               
               .col-lg-1  
       .col-lg-10
-        h5 
-          i.fas.fa-table.col
-          span.col Diagramas de pastel
+        h4
+          i.fas.fa-table.vs
+          span.vs Diagramas de pastel
 
         p Es otro esquema de representación gráfica estadística que busca descomponer una variable en sus diferentes categorías, mostrando la cantidad de frecuencia o casos, evidenciando cuánto del total corresponde cada categoría dentro de la variable.  
         .tarjeta.tarjeta--azul.p-4.mb-5
