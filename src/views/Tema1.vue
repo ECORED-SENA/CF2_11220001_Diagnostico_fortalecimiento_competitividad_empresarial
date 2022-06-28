@@ -23,8 +23,8 @@
             .row.bg-color12
               .col
                 .p-2
-                  p Forma o instrumentos para recoger la información.
-                  p Metodología para capturar la información.
+                  p.mb-2.mb-md-1.mb-lg-2 Forma o instrumentos para recoger la información.
+                  p.mb-2.mb-md-1.mb-lg-2 Metodología para capturar la información.
                   p.mb-0 Momento o frecuencia de recolección.
       .col-lg-4.mb-4(data-aos="zoom-in")
         .crd_hover_txt1
@@ -37,8 +37,8 @@
             .row.bg-color12
               .col
                 .p-2
-                  p Proceso de compilación y procesamiento de la información/compilación.
-                  p Almacenamiento y soportes de la información.
+                  p.mb-2.mb-md-1.mb-lg-2 Proceso de compilación y procesamiento de la información/compilación.
+                  p.mb-2.mb-md-1.mb-lg-2 Almacenamiento y soportes de la información.
                   p.mb-0 Ordenamiento de la información.
       .col-lg-4.mb-4(data-aos="zoom-in")
         .crd_hover_txt1
@@ -51,7 +51,7 @@
             .row.bg-color12
               .col
                 .p-2
-                  p Clasificar la información  como aspectos conducentes al éxito y al desmejoramiento, ya sean internos o externos.
+                  p.mb-2.mb-md-1.mb-lg-2 Clasificar la información  como aspectos conducentes al éxito y al desmejoramiento, ya sean internos o externos.
                   p.mb-0 Establecer sugerencias o posibles orientaciones a seguir.
  
       separador
@@ -106,9 +106,8 @@
         .col-lg-6.bg3.py-md-4.py-2.px-5
           .row.align-items-center 
             .col-lg-8
-
-              p.mb-0 Técnicas de recolección de información.
-            .col-lg-4
+              p.mb-md-0.mb-1 Técnicas de recolección de información.
+            .col-lg-4.aqw
               a.boton.me-3.indicador__container.justify-content-center(
                 :href="obtenerLink('/downloads/prueba.pdf')"
                 target="_blank"
@@ -130,14 +129,13 @@
         img(src='@/assets/curso/tema1/5.png', alt='Texto que describa la imagen')
         .row.bgc3.p-2
           p.text-center.text-small.mt-2.mb-0 <strong>Preparación y alistamiento de los recursos</strong>
-          .row.mt-2.justify-content-center
-            .col-lg-4
-              a.boton.me-3.indicador__container.aqw(
-                :href="obtenerLink('/downloads/prueba.pdf')"
-                target="_blank"
-                type="application/pdf"
-                @mouseover="mostrarIndicador = false"
-              )
+          
+          a.boton.indicador__container.aqw(
+            :href="obtenerLink('/downloads/prueba.pdf')"
+            target="_blank"
+            type="application/pdf"
+            @mouseover="mostrarIndicador = false"
+          )
                 span Descargar
                 i.fas.fa-file-download
                 .indicador--click(v-if="mostrarIndicador")
@@ -145,14 +143,12 @@
         img(src='@/assets/curso/tema1/6.png', alt='Texto que describa la imagen')
         .row.bgc3.p-2
           p.text-center.mb-0 <strong>Fuentes de información</strong>
-          .row.mt-2.justify-content-center
-            .col-lg-4
-              a.boton.me-3.indicador__container.aqw(
-                :href="obtenerLink('/downloads/prueba.pdf')"
-                target="_blank"
-                type="application/pdf"
-                @mouseover="mostrarIndicador = false"
-              )
+          a.boton.indicador__container.aqw(
+            :href="obtenerLink('/downloads/prueba.pdf')"
+            target="_blank"
+            type="application/pdf"
+            @mouseover="mostrarIndicador = false"
+          )
                 span Descargar
                 i.fas.fa-file-download
                 .indicador--click(v-if="mostrarIndicador")
@@ -160,14 +156,12 @@
         img(src='@/assets/curso/tema1/7.png', alt='Texto que describa la imagen')
         .row.bgc3.p-2
           p.text-center.mb-0 <strong>Captura de información</Strong>
-          .row.mt-2.justify-content-center
-            .col-lg-4
-              a.boton.me-3.indicador__container.aqw(
-                :href="obtenerLink('/downloads/prueba.pdf')"
-                target="_blank"
-                type="application/pdf"
-                @mouseover="mostrarIndicador = false"
-              )
+          a.boton.indicador__container.aqw(
+            :href="obtenerLink('/downloads/prueba.pdf')"
+            target="_blank"
+            type="application/pdf"
+            @mouseover="mostrarIndicador = false"
+          )
                 span Descargar
                 i.fas.fa-file-download
                 .indicador--click(v-if="mostrarIndicador")
@@ -432,9 +426,9 @@
       .col-lg-8.bg9.py-md-4.py-2.px-5
         .row.align-items-center 
           .col-lg-9
-            p.text-center.mb-0 ¿ Por qué se caracteriza la fase de crecimiento ?
+            p.text-center.mb-md-0.mb-3 ¿ Por qué se caracteriza la fase de crecimiento ?
           .col-lg-3
-            .row
+            .row.justify-content-center
               .col-auto
                 a.boton.color-acento-botones.indicador__container.aqw(@click="modal1 = true")
                   span Observar
@@ -482,9 +476,9 @@
           .col-lg-12.bg9.py-md-4.py-2.px-5
             .row.align-items-center.mb-4
               .col-lg-9
-                p.text-center.mb-0 Los conceptos básicos de la estadística son:
+                p.text-center.mb-md-0.mb-3 Los conceptos básicos de la estadística son:
               .col-lg-3
-                .row
+                .row.justify-content-center
                   .col-auto
                     a.boton.color-acento-botones.indicador__container.aqw(@click="modal1 = true")
                       span Observar

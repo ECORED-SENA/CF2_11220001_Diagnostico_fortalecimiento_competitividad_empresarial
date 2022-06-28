@@ -1,6 +1,9 @@
 .boton *
   color: white
-
+.banner-principal__componente h1
+  color: #12263F!important
+.banner-principal p
+  color: #12263F!important 
 .banner-interno__fondo
   background-image: url("../assets/curso/fondo-banner-interno.png") !important
   background-repeat: no-repeat   
@@ -197,9 +200,14 @@
   background-repeat: no-repeat   
   background-position-x: 50%
   background-position-y: 33px
-  @media screen and ( max-width: 400px)
-    background-position-x: 50%
-    background-position-y: 50px
+  display: inherit
+  @media screen and ( max-width: 578px)
+    display: none
+.col23
+  display: none
+  @media screen and ( max-width: 578px)
+    display: inherit
+    background-color: white
 .tarjeta--azul1
   background-color: #FFF5DB
 .boton_wid
@@ -240,7 +248,7 @@
   padding: 50px
   @media screen and ( max-width: 992px)
     background-size: cover
-    margin-inline: -2.5rem  
+    margin-inline: -4.5rem  
 .linea-tiempo-d.color-acento-botones .linea-tiempo-d__item--selected .linea-tiempo-d__item__number
   background-color: #FFF3D2
   color: #12263F
@@ -315,9 +323,17 @@
 .banner-principal__info
   @media screen and ( max-width: 992px)
     padding-left: 40px !important
+  
+.tarjeta.color-primario p
+  @media screen and ( max-width: 426px)
+    margin-top: 30px!important          
+  
 .aqw
-  @media screen and ( max-width: 420px)
-    margin-left: 70px
+  margin: 0 auto
+  display: flex
+  width: fit-content
+  justify-content: center
+  align-content: center
 .bloque-texto-g__texto.p-4
   @media screen and ( max-width: 420px)
     width: 100%!important

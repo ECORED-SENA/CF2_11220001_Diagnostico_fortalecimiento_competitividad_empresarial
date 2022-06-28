@@ -292,7 +292,7 @@
           .col-lg-9
             p.text-center.mb-0 Ejemplo trazabilidad del indicador de crecimiento en ventasen un año.
           .col-lg-3
-            .row
+            .row.justify-content-center
               .col-auto
                 a.boton.color-acento-botones.indicador__container.aqw2(@click="modal1 = true")
                   span Observar

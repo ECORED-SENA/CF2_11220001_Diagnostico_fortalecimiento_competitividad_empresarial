@@ -18,7 +18,7 @@
           .col-md-11.mb-4.mb-md-0
             .row.justify-content-center.mb-4
               .col-lg-8.col21
-                p.text-center <strong>Determinación de conclusiones diagnósticas exógenas</strong>        
+                p.text-center.col23 <strong>Determinación de conclusiones diagnósticas exógenas</strong>        
             figure.mb-4
               .video
                 iframe(width="560" height="315" src="https://www.youtube.com/embed/ADrmedpQ_EU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
@@ -28,7 +28,7 @@
             .row.justify-content-center.mb-4
               p.text-center De igual manera para establecer las conclusiones de diagnóstico endógeno, y facilitar el proceso, se expone el siguiente video:
               .col-lg-8.col21
-                p.text-center <strong>Determinación de conclusiones diagnósticas endógenas</strong>     
+                p.text-center.col23 <strong>Determinación de conclusiones diagnósticas endógenas</strong>     
             figure.mb-4
               .video
                 iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
@@ -38,7 +38,7 @@
             .row.justify-content-center.mb-4
               p.text-center Las conclusiones diagnósticas generales para la competitividad se presentan en el siguiente video:
               .col-lg-8.col21
-                p.text-center <strong>Conclusiones diagnósticas generales</strong>  
+                p.text-center.col23 <strong>Conclusiones diagnósticas generales</strong>  
             figure.mb-4
               .video
                 iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)

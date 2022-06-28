@@ -68,9 +68,9 @@
           iframe(width="560" height="315" src="https://www.youtube.com/embed/fo2rctkiO6I" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
         .row.justify-content-center.mt-5
           .col-lg-8.bg9
-            .row.p-5.aqds
-              .col-lg-9.mb-5
-                p La siguiente figura muestra un formato de ejemplo que se debe diligenciar para llevar el registro y control de las iniciativas del plan de acción.
+            .row.py-3.px-5.align-items-center
+              .col-lg-9
+                p.mb-3.mb-md-0 La siguiente figura muestra un formato de ejemplo que se debe diligenciar para llevar el registro y control de las iniciativas del plan de acción.
               .col-lg-3
                 .row
                   .col-auto
