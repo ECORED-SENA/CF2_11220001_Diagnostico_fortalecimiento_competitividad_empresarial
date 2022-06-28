@@ -21,7 +21,7 @@
         p.text-center <strong>Recomendaciones o sugerencias para el desarrollo estratégico – recomendaciones para emprender planes</strong>
     figure.mb-4
       .video
-        iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+        iframe(width="560" height="315" src="https://www.youtube.com/embed/MsadzGMq-s4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
     separador
     .row.bgt41
       #t_4_1.titulo-segundo.color-acento-contenido
@@ -33,7 +33,7 @@
           p.text-center <strong>Recomendaciones o sugerencias para el desarrollo estratégico – fijación de objetivos</strong>
       figure.mb-4
         .video
-          iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+          iframe(width="560" height="315" src="https://www.youtube.com/embed/pBow0WDS6tg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
       separador
       #t_4_2.titulo-segundo.color-acento-contenido
         h2 4.2. Determinación de estrategias
@@ -43,7 +43,7 @@
         p.text-center <strong>Recomendaciones o sugerencias para el desarrollo estratégico - determinación de estrategias y tácticas</strong>
     figure.mb-4
       .video
-        iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+        iframe(width="560" height="315" src="https://www.youtube.com/embed/ITCUHW1CuBo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
     separador
     #t_4_3.titulo-segundo.color-acento-contenido
       h2 4.3. Plan de acción
@@ -54,7 +54,7 @@
         p.text-center <strong>DOFA como inspiración de fijación de planes de acción</strong>
     figure.mb-4
       .video
-        iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+        iframe(width="560" height="315" src="https://www.youtube.com/embed/u7GnWIeT9Z0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
     separador
     .row.bgt42  
       #t_4_4.titulo-segundo.color-acento-contenido
@@ -65,10 +65,10 @@
           p.text-center <strong>Control y seguimiento al plan de acción por cada iniciativa de desarrollo</strong>
       figure.mb-4
         .video
-          iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+          iframe(width="560" height="315" src="https://www.youtube.com/embed/fo2rctkiO6I" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
         .row.justify-content-center.mt-5
-          .col-lg-8.bg9.p-5
-            .row  
+          .col-lg-8.bg9
+            .row.p-5.aqds
               .col-lg-9.mb-5
                 p La siguiente figura muestra un formato de ejemplo que se debe diligenciar para llevar el registro y control de las iniciativas del plan de acción.
               .col-lg-3

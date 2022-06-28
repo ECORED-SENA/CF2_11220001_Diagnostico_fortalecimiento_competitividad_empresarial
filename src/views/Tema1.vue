@@ -120,9 +120,9 @@
                 .indicador--click(v-if="mostrarIndicador")
     p Ahora, corresponde en conformidad al plan de trabajo y agendamiento para la captura de información, adelantar las jornadas de trabajo para la captura de información, el cual se presenta en el siguiente recurso.
     .row.justify-content-center.mt-4
-      .row.justify-content-center
+      .row.justify-content-center.mb-3
         .col-lg-6.tte
-          h3.text-center Plan de trabajo y agendamiento para la captura de información 
+          h3.text-center.mb-0 Plan de trabajo y agendamiento para la captura de información 
       p.text-center.mb-0 En el presente recurso se abordarán los elementos necesarios para obtener una buena generación de la información.
       p.text-center para generar buena información, se tienen en cuenta tres fases:
     .row.justify-content-center.mt-5
@@ -234,8 +234,8 @@
         .cajon.color-primario.p-4.mb-1
           p Para este ejercicio, es conveniente que el equipo de trabajo, desde el líder del diagnóstico, utilice una serie de instrumentos o herramientas como las que se presentan a continuación, para interpretar dicha información y que orientan a la empresa desde el punto de vista competitivo.
     .row.bg5.mb-5.mt-5
-      .col-lg-1
-      .col-lg-4.mt-4
+      .col-lg-1.col-3
+      .col-lg-5.col-8.mt-2.mt-md-4
         h4 Técnica análisis DOFA.     
     p Se ha convertido en una herramienta de análisis estratégico que permite identificar los factores y aspectos de variables endógenas y exógenas que inciden en la operación de la empresa y que pueden afectarla de manera favorable o desfavorable, permite focalizar cuáles son los factores más relevantes, evidenciando las conclusiones en que se debe concentrar la empresa para ampliar, mejorar o conservar su capacidad competitiva; permite a la empresa plantear una planeación de objetivos y, por ende fijar medidas estratégicas y planes de acción para el desarrollo de su competitividad a futuro.     
     .row.bg6
@@ -243,7 +243,7 @@
         img(src='@/assets/curso/tema1/10.svg', alt='Texto que describa la imagen')
       .col-lg-7.mt-4.mb-5
         p Esta metodología de análisis fue planteada por Albert S. Humphrey en los años 60, para orientar correctamente a las empresas en la toma de decisiones diferenciadas a cada situación, en especial las que se consideran importantes o críticas para el negocio de la empresa. Con el paso del tiempo, se ha complementado su desarrollo y técnica de aplicación, pero sigue guardando su principal objetivo que es identificar a partir del contexto, cómo opera una empresa, sus fortalezas, debilidades, amenazas y oportunidades.
-    p.text-center Su aplicabilidad surge del concepto que se ha venido trabajando sobre los factores endógenos y exógenos, donde para cada uno establece dos condiciones:
+    p.text-center.mt-4 Su aplicabilidad surge del concepto que se ha venido trabajando sobre los factores endógenos y exógenos, donde para cada uno establece dos condiciones:
     .row.justify-content-center
       .col-lg-10
         AcordionA.mb-5(tipo="a" clase-tarjeta="tarjeta tarjeta--azul")
@@ -321,8 +321,8 @@
     p.mt-5 En el numeral 3 de este componente formativo se describe cómo es el ejercicio de priorización y de obtención de las conclusiones estratégicas y fijación de sugerencias para la fijación de objetivos.
     p Una vez, la información está ordenada por factores, se debe clasificar dicha información endógena y exógena según sea favorable o desfavorable: en fortalezas, debilidades, oportunidades y amenazas.
     .row.bg5.mb-5.mt-5
-      .col-lg-1
-      .col-lg-4.mt-4
+      .col-lg-1.col-3
+      .col-lg-5.col-8.mt-4.mt-md-4
         h4 Matriz BCG. 
     p La matriz BCG (Boston Consulting Group), es una herramienta desarrollada por esta compañía como instrumento de análisis gráfico del portafolio de productos, a partir de la posición que estos ocupan dentro de la empresa y su tendencia, con el fin de tomar decisiones para cada uno de estos, en búsqueda de la maximización de utilidades y beneficios.
     .row.justify-content-center.bg7
@@ -338,12 +338,12 @@
             h5.mt-2 Participación de mercado frente a los considerados competencia
       p.text-center Estos cuadrantes se definen entre 2 variables:
       .col-lg-8
-        .row.justify-content-center.tt2
+        .row.align-items-center.tt2
           .col-lg-2.mt-4.mb-4
             img.tamimg(src='@/assets/curso/tema1/ico5.svg', alt='Texto que describa la imagen')
           .col-lg-10.mt-4
             p <strong>Crecimiento en el mercado:</strong> cómo aumentan las ventas.
-        .row.justify-content-center.mt-5.tt3
+        .row.align-items-center.mt-3.tt3
           .col-lg-2
             img.tamimg(src='@/assets/curso/tema1/ico6.svg', alt='Texto que describa la imagen')
           .col-lg-10.mt-3
@@ -378,8 +378,8 @@
         
     p A partir de la ubicación de los productos de portafolio de la empresa, se deben establecer las medidas estratégicas para el sostenimiento, ampliación y defensa de estos, en caso de continuar siendo atractivos y rentables para la empresa. Para el caso del ejemplo, es evidente que los 3 productos deben continuar y que en especial los productos 2 y 3, deben ser tratados con acciones que les permita continuar su desarrollo y crecimiento, mientras que en el producto número uno, las iniciativas buscarán la defensa de la participación en el mercado y la sostenibilidad del nivel de ventas en el largo plazo.
     .row.bg5.mb-5.mt-5
-      .col-lg-1
-      .col-lg-4.mt-4
+      .col-lg-1.col-3
+      .col-lg-5.col-8.mt-4.mt-md-4
         h4 Ciclo de vida del producto.
     p Es la representación gráfica de las diferentes fases por las que atraviesan los productos desde su desarrollo hasta su retiro de la oferta del portafolio de productos de la empresa y está constituido por cuatro fases plenamente identificables. 
     .row.justify-content-center  
@@ -453,8 +453,8 @@
                   p Como el producto se vuelve tendencia, es muy importante el aumento de la distribución o presencia comercial donde actúa para aumentar los nuevos clientes.
                 .col-md-1
     .row.bg5.mb-5.mt-5
-      .col-lg-1
-      .col-lg-5.mt-4
+      .col-lg-1.col-3
+      .col-lg-5.col-8.mt-2.mt-md-4
         h4 Relación de la Matriz BCG y el ciclo de vida del producto.     
     p La capacidad competitiva de un producto o servicio debe estar correlacionada con el ciclo de vida que atraviesa al momento del diagnóstico con el fin de establecer las posibilidades estratégicas y de decisión. 
     .row.color1
@@ -471,8 +471,8 @@
           span.text-small Relación de la matriz BCG y el ciclo de vida del producto. 
         img(src='@/assets/curso/tema1/27.svg', alt='Texto que describa la imagen')
     .row.bg5.mb-5.mt-5
-      .col-lg-1
-      .col-lg-5.mt-4
+      .col-lg-1.col-3
+      .col-lg-5.col-8.mt-4.mt-md-4
         h4 Estadística básica.
     .row.justify-content-center
       .col-lg-8
@@ -534,8 +534,32 @@
             .col-lg-1
             .col-lg-10
               p Ejemplo: en un restaurante el gerente desea saber cómo realizar las compras de productos, para ello, recurre al análisis estadístico del promedio de ventas de platos de almuerzo, lo que le servirá como parámetro de compra para la semana.
-              img(src='@/assets/curso/tema1/29.svg', alt='Texto que describa la imagen')
-            
+              .tabla-a.color-primario.mb-5 
+                table
+                  thead
+                    tr
+                      th .
+                      th Lasagna
+                      th Espagueti
+                      th Pechuga asada
+                      th Ensaladas
+                      th Promedio almuerzos
+                  tbody
+                    tr
+                      td Platos
+                      td.text-center 12
+                      td.text-center 9
+                      td.text-center 11
+                      td.text-center 8
+                      td.text-center 40
+                    tr
+                      td Frecuencias
+                      td.text-center 30.0%
+                      td.text-center 22.5%
+                      td.text-center 27.5%
+                      td.text-center 20.0%  
+                      td.text-center 100.0%           
+
             .col-lg-1
 
           div(titulo="Desarrollo diagrama de frecuencia")
@@ -557,8 +581,41 @@
             .col-lg-1
             .col-lg-10
               p En el caso del restaurante, el gerente desea saber cómo es el consumo semanal de platos vendidos, para lo cual el gerente el presenta la siguiente información:
+              .tabla-a.color-primario.mb-5 
+                table
+                  thead
+                    tr
+                      th .
+                      th Lunes
+                      th Martes
+                      th Miercoles
+                      th Jueves
+                      th Viernes
+                      th Sabado
+                      th Domingo
+                      th Total
 
-              img(src='@/assets/curso/tema1/31.svg', alt='Texto que describa la imagen')
+                  tbody
+                    tr
+                      td Platos
+                      td.text-center 30
+                      td.text-center 20
+                      td.text-center 35
+                      td.text-center 34
+                      td.text-center 45
+                      td.text-center 60
+                      td.text-center 56
+                      td.text-center 280                      
+                    tr
+                      td %
+                      td.text-center 10.7%
+                      td.text-center 7.1%
+                      td.text-center 12.5%
+                      td.text-center 12.1%  
+                      td.text-center 16.1%           
+                      td.text-center 21.4% 
+                      td.text-center 20.0% 
+                      td.text-center 100.0%                                             
             
             .col-lg-1
 
@@ -582,7 +639,26 @@
           SlyderA(tipo="b")
             .row.justify-content-center
               .col-md-10.mb-4.mb-md-0
-                img(src='@/assets/curso/tema1/33.svg', alt='Texto que describa la imagen')
+                .tabla-a.color-primario.mb-5 
+                  table
+                    thead
+                      tr
+                        th.wia1 Hora en que almuerzan las personas
+                        th Almuerzos
+                    tbody
+                      tr
+                        td.text-center 11:30 am. a 12:30pm.
+                        td.text-center 8
+
+                      tr
+                        td.text-center 12:30 am. a 1:30 pm.
+                        td.text-center 15
+                      tr
+                        td.text-center 1:30 am. a 2:30pm.
+                        td.text-center 11
+                      tr
+                        td.text-center 2:30 am. a 4:00pm.
+                        td.text-center 6
                 p.mt-4 Para el caso del restaurante se desea saber cómo es el comportamiento o flujo de comensales en el horario de almuerzo, para lo cual el gerente del restaurante recibe de su administrador la siguiente información. A partir de la información suministrada se elabora el diagrama de pastel.
             
             .row.justify-content-center
