@@ -200,14 +200,12 @@
   background-repeat: no-repeat   
   background-position-x: 50%
   background-position-y: 33px
-  display: inherit
   @media screen and ( max-width: 578px)
-    display: none
-.col23
-  display: none
-  @media screen and ( max-width: 578px)
-    display: inherit
-    background-color: white
+    background-color: transparent 
+    background-image: none!important
+    .col23
+      background-color: white
+
 .tarjeta--azul1
   background-color: #FFF5DB
 .boton_wid
@@ -237,9 +235,8 @@
   background-repeat: no-repeat   
   background-position-x: 50%
   background-position-y: 33px
-  @media screen and ( max-width: 420px)
-    background-position-x: 50%
-    background-position-y: 68px
+  @media screen and ( max-width: 578px)
+    background-image: none!important
 .bg99
   background-image: url("../assets/curso/tema5/bg1.png") !important
   background-repeat: no-repeat 
