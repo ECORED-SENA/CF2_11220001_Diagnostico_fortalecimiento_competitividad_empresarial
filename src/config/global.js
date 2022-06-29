@@ -177,7 +177,7 @@ export default {
     },
     {
       referencia:
-        'Asesoría empresarial y coaching ejecutivo . ¿CÓMO INICIAR EL PROCESO DEL DIAGNÖSTICO EMPRESARIAL EN MI ORGANIZACIÓN? [video]. Youtube.',
+        'Asesoría empresarial y coaching ejecutivo . ¿CÓMO INICIAR EL PROCESO DEL DIAGNÖSTICO EMPRESARIAL EN MI ORGANIZACIÓN?',
       link: 'https://www.youtube.com/watch?v=xbS2KO92BZU',
     },
     {
@@ -270,14 +270,14 @@ export default {
         'aspectos o variables que inciden en la empresa de manera significativa, se denominan críticos, porque repercuten en el estado actual de la empresa. No siempre son los mismos, pueden cambiar con el tiempo.',
     },
     {
-      termino: 'Focus Group',
+      termino: '<i>Focus Group</i>',
       significado:
         'metodología de sensibilización, indagación o investigación, que busca obtener información descriptiva o cualitativa, donde se reúne un conjunto de participantes para adelantar una entrevista o una argumentación temática, donde se busca registrar dichos argumentos u opiniones sobre un proceso, productos, servicios, resultados pasados, etc.',
     },
     {
       termino: 'KPI',
       significado:
-        'Key Performance Indicator de su sigla traducida del inglés, indicador de gestión.',
+        '<i>Key Performance</i> Indicator de su sigla traducida del inglés, indicador de gestión.',
     },
     {
       termino: 'Metodología',
@@ -300,7 +300,7 @@ export default {
         'es el ejercicio de interpretación de la información capturada, por parte de equipos de trabajo diagnóstico, con el fin de identificar el estado actual de la variable o factor, si representa condición de relevancia o alto impacto en la operación de la empresa.',
     },
     {
-      termino: 'PIB',
+      termino: '<i>PIB</i>',
       significado: 'Producto Interno Bruto.',
     },
     {
@@ -325,33 +325,34 @@ export default {
   ],
   complementario: [
     {
-      tema: 'Estrategias para la segmentación de mercados',
+      tema: 'Estadística básica',
       referencia:
-        'Cámara de Comercio de Medellín. (2020). <em>Suftware</em> Tendencias de negocios - Mercadeo y ventas',
-      tipo: 'Video',
-      link: 'https://www.google.com/',
+        'Gregori, P. (2016). GA1239 Herramientas estadísticas básicas de la calidad. ',
+      tipo: 'Página web',
+      link:
+        'http://www3.uji.es/~gregori/docencia/mt1021-1516/tema5-herramientas-pablo.html',
     },
     {
-      tema: 'Estrategias para la segmentación de mercados',
-      referencia:
-        'Cámara de Comercio de Medellín. (2020). <em>Suftware</em> Tendencias de negocios - Mercadeo y ventas',
-      tipo: 'Video',
-      link: 'https://www.google.com/',
+      tema: 'Estadística básica',
+      referencia: 'Gutiérrez, A. (2021). Herramientas Estadísticas. ',
+      tipo: 'Página web',
+      link:
+        'https://alfredogutierrez.weebly.com/16-herramientas-estadisticas.html',
     },
     {
-      tema: 'Estrategias para la segmentación de mercados',
+      tema: 'Tipos y naturaleza de los indicadores',
       referencia:
-        'Cámara de Comercio de Medellín. (2020). <em>Suftware</em> Tendencias de negocios - Mercadeo y ventas',
-      tipo: 'Video',
-      link: 'https://www.google.com/',
+        'Rojas Caro, J. y Matallana Quiroga, L. (2016). Los indicadores de gestión como herramienta de competitividad empresarial. ',
+      tipo: 'pdf',
+      link: 'https://ciencia.lasalle.edu.co/administracion_de_empresas',
     },
   ],
   creditos: {
     liderEquipo: [
       {
-        nombre: 'Maria Camila Garcia Santamaria',
+        nombre: 'María Camila García Santamaría',
         cargo: 'Líder del equipo',
-        centro: 'Dirección General',
+        centro: 'Dirección Géneral',
       },
     ],
     contenidoInstruccional: [
@@ -381,8 +382,8 @@ export default {
           'Centro Industrial del Diseño y la Manufactura Regional Santander',
       },
       {
-        nombre: 'Sergio Mauricio Valencia Martinez',
-        cargo: 'Desarrollo Front-End',
+        nombre: 'Sergio Mauricio Valencia Martínez',
+        cargo: 'Desarrollo front-end',
         centro:
           'Centro Industrial del Diseño y la Manufactura Regional Santander',
       },
@@ -406,7 +407,7 @@ export default {
       },
 
       {
-        nombre: 'Nombre',
+        nombre: 'María Eugenia Mejía López',
         cargo: 'Validación de diseño y contenido',
         centro:
           'Centro Industrial del Diseño y la Manufactura Regional Santander',
@@ -414,7 +415,7 @@ export default {
     ],
     gestoresRepositorio: [
       {
-        nombre: 'Álvaro Andrés Angarita Ramirez',
+        nombre: 'Álvaro Andrés Angarita Ramírez',
         cargo: 'Validación y vinculación en plataforma LMS',
         centro: 'Centro de Comercio y Servicios Regional Tolima',
       },
