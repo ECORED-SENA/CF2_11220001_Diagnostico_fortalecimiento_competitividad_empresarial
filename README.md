@@ -1,8 +1,8 @@
-# **sena-base-2021 v6.1.0**
+# **Formulación diagnóstica y reconocimiento de iniciativas de desarrollo**
 
 ## **Enlace GitHubPages**
 
-[https://ecored-sena.github.io/ECORED-BASE-2021](https://ecored-sena.github.io/ECORED-BASE-2021)
+[https://ecored-sena.github.io/CF2_11220001_Diagnostico_fortalecimiento_competitividad_empresarial/](https://ecored-sena.github.io/CF2_11220001_Diagnostico_fortalecimiento_competitividad_empresarial/)
 
 #
 
