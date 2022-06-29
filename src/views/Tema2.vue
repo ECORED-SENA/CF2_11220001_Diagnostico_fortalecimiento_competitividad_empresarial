@@ -25,6 +25,10 @@
         .tarjeta.color-acento-botones.p-3(x="7.5%" y="47%" numero="+")
 
           p <strong>Externos.</strong> Es externo y de aplicabilidad para la empresa cuando desde el entorno se fija y la empresa lo adopta como meta o medida de seguimiento, está disponible desde fuera de la compañía, y la empresa lo utiliza para compararse, por ejemplo: el índice de crecimiento del PIB para la industria o sector en que se participa o de la región donde se está operando la empresa, lo que traduce que las empresa deberá tener un crecimiento económico similar al mismo; otro ejemplo, puede ser la participación laboral entre hombres y mujeres, que para el caso de un nuevo puesto la empresa establecerá un índice de participación de mujeres y otro de hombres, estos indicadores los dispone el entorno, en que opera la empresa y pueden ser un referente.
+        
+        .tarjeta.color-acento-botones.p-3(x="64%" y="9%" numero="+")
+
+          p <strong>Indicadores.</strong> Los indicadores de gestión se puede clasificar de diversas maneras, según el autor que trate sobre el tema; sin embargo, para el caso se tomarán algunos enfoques que permiten su clasificación y uso.
 
 
         .tarjeta.color-acento-botones.p-3(x="21.5%" y="47%" numero="+")

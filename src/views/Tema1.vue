@@ -109,7 +109,7 @@
               p.mb-md-0.mb-1 Técnicas de recolección de información.
             .col-lg-4.aqw
               a.boton.me-3.indicador__container.justify-content-center(
-                :href="obtenerLink('/downloads/prueba.pdf')"
+                :href="obtenerLink('/downloads/infografia1.ai')"
                 target="_blank"
                 type="application/pdf"
                 @mouseover="mostrarIndicador = false"
@@ -131,7 +131,7 @@
           p.text-center.mt-2.mb-0 <strong>Preparación y alistamiento de los recursos</strong>
           
           a.boton.indicador__container.aqw(
-            :href="obtenerLink('/downloads/prueba.pdf')"
+            :href="obtenerLink('/downloads/anexo_1.ai')"
             target="_blank"
             type="application/pdf"
             @mouseover="mostrarIndicador = false"
@@ -144,7 +144,7 @@
         .row.bgc3.p-2
           p.text-center.mb-0 <strong>Fuentes de información</strong>
           a.boton.indicador__container.aqw(
-            :href="obtenerLink('/downloads/prueba.pdf')"
+            :href="obtenerLink('/downloads/anexo_2.ai')"
             target="_blank"
             type="application/pdf"
             @mouseover="mostrarIndicador = false"
@@ -157,7 +157,7 @@
         .row.bgc3.p-2
           p.text-center.mb-0 <strong>Captura de información</Strong>
           a.boton.indicador__container.aqw(
-            :href="obtenerLink('/downloads/prueba.pdf')"
+            :href="obtenerLink('/downloads/anexo_3.ai')"
             target="_blank"
             type="application/pdf"
             @mouseover="mostrarIndicador = false"
@@ -287,8 +287,8 @@
                     .col-lg-2
                       img.aqz(src='@/assets/curso/tema1/ico3.svg', alt='Texto que describa la imagen')
                   p.mt-2.mb-0 Son las posibilidades que se le presentan a la empresa de poder actuar en condiciones de favorabilidad o beneficio, desarrollo, crecimiento, porque el macroentorno se lo permite y lo favorece.
-                  <br><br>
-                  p Ejemplo: la reducción de los precios de los combustibles para una empresa transportadora.
+                  
+                  p.mt-4 Ejemplo: la reducción de los precios de los combustibles para una empresa transportadora.
               .col-md-1.wa
               .col-md-5
                 .row.tq.p-4
@@ -357,19 +357,29 @@
               img(src='@/assets/curso/tema1/19.svg', alt='Texto que describa la imagen')
 
           div(x="60%" y="77%" tooltip="Perro: productos perro" numero="+")
-            h5.c1 Perro: Productos Perro
+            h5.c1 Perro: productos perro
             p Estos productos no presentan crecimiento en ventas y tienen baja participación de mercado frente a lo que se vende en el sector o industria, por ende, no contribuyen en los beneficios de la empresa regularmente, incluso llega a ser negativa la utilidad. En estos casos se recomienda retirar del portafolio y oferta de productos de estas referencias. En ocasiones, hay que mantenerlos, ya que representan la tradición de la empresa, tienen el posicionamiento y generan la confianza en los otros productos de la empresa, aun cuando su contribución a la empresa no es alto, regularmente fueron vacas lechera, que por cambios en las tendencias de consumo o por que salieron productos para la misma función o servicio con mejor tecnología o eficiencia se quedaron relegados, se podría desarrollar esos productos, para ver si se recompone su crecimiento, decisiones que deben tomar los empresarios al diagnosticar las potencialidades del producto.
           
           div(x="26.5%" y="77%" tooltip="Vaca: productos vaca lechera" numero="+")
-            h5.c1 Vaca: Productos Vaca Lechera
+            h5.c1 Vaca: productos vaca lechera
             p  Se denominan así porque son los productos más desarrollados que producen los ingresos más altos en la empresa, ya están bien posicionados en el mercado aunque cada vez es más difícil aumentar su crecimiento de ventas, porque el mercado ya está saturado o es inflexible de los recursos de estos productos se pueden retirar utilidades con que vive la empresa e invertir en los otros productos como estrellas e interrogantes incluso.
           div(x="26.5%" y="34%" tooltip="Estrella: productos estrella" numero="+")
-            h5.c1 Estrella: Productos Estrella
+            h5.c1 Estrella: productos estrella
             p   Son aquellos con gran crecimiento y que están logrando buena participación de mercado. A estos productos ubicados en este cuadrante hay que estimularlos seguirles invirtiendo y no retirarles utilidades, hasta que no se vuelvan vacas lecheras.
           div(x="60%" y="34%" tooltip="Interrogante: productos interrogante" numero="+")
-            h5.c1 Interrogante: Productos Interrogante
+            h5.c1 Interrogante: productos interrogante
             p  Son aquellos productos que tienen un rápido crecimiento, pero con poca cuota de participación en el mercado, regularmente porque son nuevos. Se recomienda seguir invirtiéndoles porque son semillas que crecerán y se convertirán en productos estrella o vacas lecheras, se tiene que supervisar mucho porque también fácilmente se pueden convertir en productos perros, porque las personas consumen al inicio por exploración, pero si no gustan, no recompran, no crecerán.
-          
+          div(x="29%" y="60%" tooltip="1" numero="1")
+            h5.c1 1
+            p   Producto que presenta un nivel de participación en el mercado alto, superior al del competidor más cercano; sin embargo, presenta un nivel de crecimiento en ventas cercano al 5%, lo que deja entrever que a la empresa que oferta este producto cada vez le es más difícil conseguir mejores resultados de ventas es decir crecer más, esta condición hace que esté ubicado en el cuadrante de las vacas lecheras donde el deber ser del empresario es mantener su participación en el mercado y propender a aumentar el crecimiento en ventas sino defenderlo.
+          div(x="37%" y="37%" tooltip="Interrogante: productos interrogante" numero="2")
+            h5.c1 2
+            p  Producto que presenta un nivel de participación en el mercado alto, por encima de sus competidores cercanos, con un fuerte crecimiento en ventas lo que lo caracteriza como un producto en la fase de crecimiento. Es un producto que en magnitud puede manejar más volúmenes que el producto número uno; sin embargo, aún se encuentra en la etapa de crecimiento y por ser esta mayor al 10% se presume que aún puede mejorar este crecimiento durante un tiempo, luego la decisión estratégica es mantener su inversión con el fin de garantizar este propósito de tal manera que cuando llegue a su etapa de madurez goce de las mejores condiciones de ventas y de participación en el mercado, donde seguramente será fuente de grandes beneficios para la empresa.
+          div(x="63%" y="18%" tooltip="3" numero="3")
+            h5.c1 3
+            p Producto ubicado en el cuadrante de productos de interrogación, es quizá el producto más joven en la organización, su cuota de participación en el mercado está por debajo de lo que hace su competencia; sin embargo, las ventas demuestran un crecimiento superior al 15%, lo que deja entrever un certero producto que entrará a su fase de crecimiento y ampliación por ende de la participación en el mercado.
+
+                                           
         
     p A partir de la ubicación de los productos de portafolio de la empresa, se deben establecer las medidas estratégicas para el sostenimiento, ampliación y defensa de estos, en caso de continuar siendo atractivos y rentables para la empresa. Para el caso del ejemplo, es evidente que los 3 productos deben continuar y que en especial los productos 2 y 3, deben ser tratados con acciones que les permita continuar su desarrollo y crecimiento, mientras que en el producto número uno, las iniciativas buscarán la defensa de la participación en el mercado y la sostenibilidad del nivel de ventas en el largo plazo.
     .row.bg5.mb-5.mt-5
@@ -481,22 +491,16 @@
               .col-lg-3
                 .row.justify-content-center
                   .col-auto
-                    a.boton.color-acento-botones.indicador__container.aqw(@click="modal1 = true")
-                      span Observar
-                      i.fas.fa-file
-                      .indicador--click(v-if="mostrarIndicador")
+                    a.boton.indicador__container.aqw(
+                      :href="obtenerLink('/downloads/infografia2.ai')"
+                      target="_blank"
+                      type="application/pdf"
+                      @mouseover="mostrarIndicador = false"
+                    )
+                          span Observar
+                          i.fas.fa-file-download
+                          .indicador--click(v-if="mostrarIndicador")
 
-                ModalA(:abrir-modal.sync="modal1")
-                  .row.align-items-center
-                    .col-md-1
-                    .col-md-4
-                      figure
-                        img(src='@/assets/curso/tema1/25.svg', alt='Texto que describa la imagen')
-                    .col-md-6.mb-4.mb-md-0
-                      p Aumento sostenido de las ventas y por qué se empiezan a consolidar beneficios o utilidades del producto, hay que tener en cuenta que aparecerán competidores que intentarán hacer lo mismo y mejorar el producto; razón por la cual en esta fase es importante que la empresa siga llevando su estrategia de marketing para diferenciarse de la competencia y hacer mejoras al producto como ventaja competitiva.
-                      p.mb-0 El cliente reconoce y le es muy importante que le mantengan la calidad del producto como el precio, por eso lo importante de añadir un valor o servicio extra.
-                      p Como el producto se vuelve tendencia, es muy importante el aumento de la distribución o presencia comercial donde actúa para aumentar los nuevos clientes.
-                    .col-md-1
         p.mt-4 Algunos ejemplos del uso de estadística en Economía son:
         .row.mt-2
           .col-sm.mb-5.mb-sm-0
