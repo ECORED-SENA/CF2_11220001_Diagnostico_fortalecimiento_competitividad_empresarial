@@ -1,7 +1,7 @@
 export default {
   global: {
     componenteFormativo:
-      'Formulación diagnóstica y reconocimiento de iniciativas de desarrollo.',
+      'Formulación diagnóstica y reconocimiento de iniciativas de desarrollo',
     descripcionCurso:
       'En este componente, el aprendiz focaliza su aprendizaje en la identificación de los factores críticos para la competitividad empresarial, la priorización y generación de conclusiones de diagnóstico, como base de los nuevos objetivos y acciones estratégicas, de tal manera, que describa el esquema de planeación del futuro inmediato de la empresa, en un esquema de mejor posición competitiva.',
     imagenBannerPrincipal: require('@/assets/curso/banner-princiapal.png'),
@@ -203,7 +203,7 @@ export default {
     {
       termino: 'Amenaza',
       significado:
-        'se puede identificar como la probabilidad que un aspecto crítico, muy relacionado con la actividad de la empresa, la afecte sin poder evitarlo, solo puede mitigar o reducir el impacto.',
+        'se puede identificar como la probabilidad que un aspecto crítico, muy relacionado con la actividad de la empresa, la afecta sin poder evitarlo, solo puede mitigar o reducir el impacto.',
     },
     {
       termino: 'BCG',

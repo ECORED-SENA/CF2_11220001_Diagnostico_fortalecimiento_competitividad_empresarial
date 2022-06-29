@@ -97,8 +97,7 @@
         p.text-center <strong>Ajuste y control al plan de desarrollo y competitividad de la empresa</strong>
     figure.mb-4
       .video
-        iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
-                                                                                       
+        iframe(width="560" height="315" src="https://www.youtube.com/embed/ITCUHW1CuBo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
 
 
 

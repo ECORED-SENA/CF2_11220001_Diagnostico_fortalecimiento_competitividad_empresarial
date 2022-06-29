@@ -23,9 +23,9 @@
             .row.bg-color12
               .col
                 .p-2
-                  p.mb-2.mb-md-1.mb-lg-2 Forma o instrumentos para recoger la información.
-                  p.mb-2.mb-md-1.mb-lg-2 Metodología para capturar la información.
-                  p.mb-0 Momento o frecuencia de recolección.
+                  p.mb-2.mb-md-1.mb-lg-2 - Forma o instrumentos para recoger la información.
+                  p.mb-2.mb-md-1.mb-lg-2 - Metodología para capturar la información.
+                  p.mb-0 - Momento o frecuencia de recolección.
       .col-lg-4.mb-4(data-aos="zoom-in")
         .crd_hover_txt1
           .crd_hover_txt--img.mb-0         
@@ -37,9 +37,9 @@
             .row.bg-color12
               .col
                 .p-2
-                  p.mb-2.mb-md-1.mb-lg-2 Proceso de compilación y procesamiento de la información/compilación.
-                  p.mb-2.mb-md-1.mb-lg-2 Almacenamiento y soportes de la información.
-                  p.mb-0 Ordenamiento de la información.
+                  p.mb-2.mb-md-1.mb-lg-2 - Proceso de compilación y procesamiento de la información/compilación.
+                  p.mb-2.mb-md-1.mb-lg-2 - Almacenamiento y soportes de la información.
+                  p.mb-0 - Ordenamiento de la información.
       .col-lg-4.mb-4(data-aos="zoom-in")
         .crd_hover_txt1
           .crd_hover_txt--img.mb-0         
@@ -51,8 +51,8 @@
             .row.bg-color12
               .col
                 .p-2
-                  p.mb-2.mb-md-1.mb-lg-2 Clasificar la información  como aspectos conducentes al éxito y al desmejoramiento, ya sean internos o externos.
-                  p.mb-0 Establecer sugerencias o posibles orientaciones a seguir.
+                  p.mb-2.mb-md-1.mb-lg-2 - Clasificar la información  como aspectos conducentes al éxito y al desmejoramiento, ya sean internos o externos.
+                  p.mb-0 - Establecer sugerencias o posibles orientaciones a seguir.
  
       separador
       .row
@@ -128,7 +128,7 @@
       .col-lg-4.wii.mt-4
         img(src='@/assets/curso/tema1/5.png', alt='Texto que describa la imagen')
         .row.bgc3.p-2
-          p.text-center.text-small.mt-2.mb-0 <strong>Preparación y alistamiento de los recursos</strong>
+          p.text-center.mt-2.mb-0 <strong>Preparación y alistamiento de los recursos</strong>
           
           a.boton.indicador__container.aqw(
             :href="obtenerLink('/downloads/prueba.pdf')"
@@ -230,7 +230,7 @@
     .row.bg5.mb-5.mt-5
       .col-lg-1.col-3
       .col-lg-5.col-8.mt-2.mt-md-4
-        h4 Técnica análisis DOFA.     
+        h4 Técnica análisis DOFA
     p Se ha convertido en una herramienta de análisis estratégico que permite identificar los factores y aspectos de variables endógenas y exógenas que inciden en la operación de la empresa y que pueden afectarla de manera favorable o desfavorable, permite focalizar cuáles son los factores más relevantes, evidenciando las conclusiones en que se debe concentrar la empresa para ampliar, mejorar o conservar su capacidad competitiva; permite a la empresa plantear una planeación de objetivos y, por ende fijar medidas estratégicas y planes de acción para el desarrollo de su competitividad a futuro.     
     .row.bg6
       .col-lg-5.mt-4
@@ -287,6 +287,7 @@
                     .col-lg-2
                       img.aqz(src='@/assets/curso/tema1/ico3.svg', alt='Texto que describa la imagen')
                   p.mt-2.mb-0 Son las posibilidades que se le presentan a la empresa de poder actuar en condiciones de favorabilidad o beneficio, desarrollo, crecimiento, porque el macroentorno se lo permite y lo favorece.
+                  <br><br>
                   p Ejemplo: la reducción de los precios de los combustibles para una empresa transportadora.
               .col-md-1.wa
               .col-md-5
@@ -305,20 +306,20 @@
           h5.text-small Tabla 1. 
           span.text-small Estructura de condición de los aspectos según el impacto para la empresa.  
         img(src='@/assets/curso/tema1/15.svg', alt='Texto que describa la imagen')
-    p.mt-5 La técnica establece, que una vez ya clasificada la información y determinado su nivel de impacto positivo o negativo, se procede a armar la Matriz DOFA propiamente dicha, para tomar las decisiones o acciones, haciendo los cruces pertinentes, esto implica focalizar en pocos aspectos críticos los factores para cada tipo, los de mayor relevancia o impacto a la empresa, porque a partir de allí se plantea la toma de decisiones y fijación de objetivos. La figura representa los datos a llenar para realizar una matriz DOFA.
+    p.mt-5 La técnica establece, que una vez ya clasificada la información y determinado su nivel de impacto positivo o negativo, se procede a armar la matriz DOFA propiamente dicha, para tomar las decisiones o acciones, haciendo los cruces pertinentes, esto implica focalizar en pocos aspectos críticos los factores para cada tipo, los de mayor relevancia o impacto a la empresa, porque a partir de allí se plantea la toma de decisiones y fijación de objetivos. La figura representa los datos a llenar para realizar una matriz DOFA.
     .row.justify-content-center.mt-5
       .col-lg-8
         .titulo-sexto.color-acento-contenido
-          h5.text-small Figura 3. 
-          span.text-small Estructura de la Matriz DOFA.       
+          h5 Figura 3. 
+          span Estructura de la Matriz DOFA.       
         img(src='@/assets/curso/tema1/16.svg', alt='Texto que describa la imagen')
     p.mt-5 En el numeral 3 de este componente formativo se describe cómo es el ejercicio de priorización y de obtención de las conclusiones estratégicas y fijación de sugerencias para la fijación de objetivos.
     p Una vez, la información está ordenada por factores, se debe clasificar dicha información endógena y exógena según sea favorable o desfavorable: en fortalezas, debilidades, oportunidades y amenazas.
     .row.bg5.mb-5.mt-5
       .col-lg-1.col-3
       .col-lg-5.col-8.mt-4.mt-md-4
-        h4 Matriz BCG. 
-    p La matriz BCG (Boston Consulting Group), es una herramienta desarrollada por esta compañía como instrumento de análisis gráfico del portafolio de productos, a partir de la posición que estos ocupan dentro de la empresa y su tendencia, con el fin de tomar decisiones para cada uno de estos, en búsqueda de la maximización de utilidades y beneficios.
+        h4 Matriz BCG
+    p La matriz BCG <i>(Boston Consulting Group),</i> es una herramienta desarrollada por esta compañía como instrumento de análisis gráfico del portafolio de productos, a partir de la posición que estos ocupan dentro de la empresa y su tendencia, con el fin de tomar decisiones para cada uno de estos, en búsqueda de la maximización de utilidades y beneficios.
     .row.justify-content-center.bg7
       .col-lg-8.bg8.p-5
         p Es una matriz de cuatro cuadrantes, cada uno distinguido por una figura o ícono, donde cada uno obedece a las características de comportamiento de los productos, como se muestra a continuación:
@@ -355,17 +356,17 @@
             figure
               img(src='@/assets/curso/tema1/19.svg', alt='Texto que describa la imagen')
 
-          div(x="60%" y="77%" tooltip="Perro: Productos Perro" numero="+")
+          div(x="60%" y="77%" tooltip="Perro: productos perro" numero="+")
             h5.c1 Perro: Productos Perro
             p Estos productos no presentan crecimiento en ventas y tienen baja participación de mercado frente a lo que se vende en el sector o industria, por ende, no contribuyen en los beneficios de la empresa regularmente, incluso llega a ser negativa la utilidad. En estos casos se recomienda retirar del portafolio y oferta de productos de estas referencias. En ocasiones, hay que mantenerlos, ya que representan la tradición de la empresa, tienen el posicionamiento y generan la confianza en los otros productos de la empresa, aun cuando su contribución a la empresa no es alto, regularmente fueron vacas lechera, que por cambios en las tendencias de consumo o por que salieron productos para la misma función o servicio con mejor tecnología o eficiencia se quedaron relegados, se podría desarrollar esos productos, para ver si se recompone su crecimiento, decisiones que deben tomar los empresarios al diagnosticar las potencialidades del producto.
           
-          div(x="26.5%" y="77%" tooltip="Vaca: Productos Vaca Lechera" numero="+")
+          div(x="26.5%" y="77%" tooltip="Vaca: productos vaca lechera" numero="+")
             h5.c1 Vaca: Productos Vaca Lechera
-            p  Se denominan así porque son los productos más desarrollados que producen los ingresos más altos en la empresa, ya están bien posicionados en el mercado aunque cada vez es más difícil aumentar su crecimiento de ventas, porque el mercado ya está saturado o es inflexible De los recursos de estos productos se pueden retirar utilidades con que vive la empresa e invertir en los otros productos como Estrellas e interrogantes incluso.
-          div(x="26.5%" y="34%" tooltip="Estrella: Productos Estrella" numero="+")
+            p  Se denominan así porque son los productos más desarrollados que producen los ingresos más altos en la empresa, ya están bien posicionados en el mercado aunque cada vez es más difícil aumentar su crecimiento de ventas, porque el mercado ya está saturado o es inflexible de los recursos de estos productos se pueden retirar utilidades con que vive la empresa e invertir en los otros productos como estrellas e interrogantes incluso.
+          div(x="26.5%" y="34%" tooltip="Estrella: productos estrella" numero="+")
             h5.c1 Estrella: Productos Estrella
             p   Son aquellos con gran crecimiento y que están logrando buena participación de mercado. A estos productos ubicados en este cuadrante hay que estimularlos seguirles invirtiendo y no retirarles utilidades, hasta que no se vuelvan vacas lecheras.
-          div(x="60%" y="34%" tooltip="Interrogante: Productos Interrogante" numero="+")
+          div(x="60%" y="34%" tooltip="Interrogante: productos interrogante" numero="+")
             h5.c1 Interrogante: Productos Interrogante
             p  Son aquellos productos que tienen un rápido crecimiento, pero con poca cuota de participación en el mercado, regularmente porque son nuevos. Se recomienda seguir invirtiéndoles porque son semillas que crecerán y se convertirán en productos estrella o vacas lecheras, se tiene que supervisar mucho porque también fácilmente se pueden convertir en productos perros, porque las personas consumen al inicio por exploración, pero si no gustan, no recompran, no crecerán.
           
@@ -374,7 +375,7 @@
     .row.bg5.mb-5.mt-5
       .col-lg-1.col-3
       .col-lg-5.col-8.mt-4.mt-md-4
-        h4 Ciclo de vida del producto.
+        h4 Ciclo de vida del producto
     p Es la representación gráfica de las diferentes fases por las que atraviesan los productos desde su desarrollo hasta su retiro de la oferta del portafolio de productos de la empresa y está constituido por cuatro fases plenamente identificables. 
     .row.justify-content-center  
       .col-lg-8
@@ -392,16 +393,15 @@
             p Antes de lanzar el producto realizó el estudio, por lo que lo ideal es utilizar toda la información para llegar al tipo de público que pueda interesarse en ese producto u oportunidades para hacerlo.
           .col-lg-4
             img(src='@/assets/curso/tema1/21.png', alt='Texto que describa la imagen')
-
-      .tarjeta.color-acento-botones--borde.p-4(titulo="Declive")
+      .tarjeta.color-acento-botones--borde.p-4(titulo="Crecimiento")
         .row.justify-content-center
           .col-lg-8
-            p Se caracteriza por un cambio en las preferencias de compra de los clientes, una menor demanda del producto por cambios en las tendencias o modas, lo que se expresa en la fuerte caída de ventas; de ser este el caso el declive lo sufre también la competencia por lo que hay que entender que todos los productos tienen una vida limitada (salvo algunas excepciones que se amplían en el tiempo pero con grandes esfuerzos de mejora) por lo que, llega un momento en el que entran a no aportar a la empresa beneficios, sino que solamente cubren sus costos o llegan inclusive subsidiados por la misma empresa.
+            p Después de la introducción de un producto, se da la fase del crecimiento. como un aumento de ventas en consecuencia de las acciones que se adelantaron durante la fase de introducción. Los consumidores conocieron el producto gracias a la promoción y publicidad y demás estrategias de marketing que se implementaron, por lo cual ha decidido confiar en la marca y seguir comprando o recomendar su compra. 
 
-            p Sea cual sea la naturaleza del declive en ventas, hay dos opciones: renovar el producto o retirarlo totalmente del portafolio y del mercado en sí. Esta decisión debe tomarla la empresa en función de las necesidades del público, e identificando si no es rescatable, ya que está en declive, lo que quiere decir que viene de grandes ventas. 
+            p Esta fase de crecimiento se caracteriza por el aumento sostenido de las ventas y porque se empiezan a consolidar beneficios o utilidades del producto, hay que tener en cuenta que aparecerán competidores que intentarán hacer lo mismo y mejorar el producto; razón por la cual en esta fase es importante que la empresa siga llevando su estrategia de marketing para diferenciarse de la competencia y hacer mejoras al producto como ventaja competitiva. El cliente reconoce y le es muy importante que le mantengan la calidad del producto como el precio, por eso lo importante de añadir un valor o servicio extra. Por otro lado, como el producto se vuelve tendencia, es muy importante el aumento de la distribución o presencia comercial donde actúa para aumentar el nuevos clientes.
 
           .col-lg-4
-            img(src='@/assets/curso/tema1/22.png', alt='Texto que describa la imagen')
+            img(src='@/assets/curso/tema1/24.png', alt='Texto que describa la imagen')
 
       .tarjeta.color-acento-botones--borde.p-4(titulo="Madurez")
         .row.justify-content-center
@@ -412,16 +412,17 @@
 
           .col-lg-4
             img(src='@/assets/curso/tema1/23.png', alt='Texto que describa la imagen')
-
-      .tarjeta.color-acento-botones--borde.p-4(titulo="Crecimiento")
+      .tarjeta.color-acento-botones--borde.p-4(titulo="Declive")
         .row.justify-content-center
           .col-lg-8
-            p Después de la introducción de un producto, se da la fase del crecimiento. como un aumento de ventas en consecuencia de las acciones que se adelantaron durante la fase de introducción. Los consumidores conocieron el producto gracias a la promoción y publicidad y demás estrategias de marketing que se implementaron, por lo cual ha decidido confiar en la marca y seguir comprando o recomendar su compra. 
+            p Se caracteriza por un cambio en las preferencias de compra de los clientes, una menor demanda del producto por cambios en las tendencias o modas, lo que se expresa en la fuerte caída de ventas; de ser este el caso el declive lo sufre también la competencia por lo que hay que entender que todos los productos tienen una vida limitada (salvo algunas excepciones que se amplían en el tiempo pero con grandes esfuerzos de mejora) por lo que, llega un momento en el que entran a no aportar a la empresa beneficios, sino que solamente cubren sus costos o llegan inclusive subsidiados por la misma empresa.
 
-            p Esta fase de crecimiento se caracteriza por el aumento sostenido de las ventas y porque se empiezan a consolidar beneficios o utilidades del producto, hay que tener en cuenta que aparecerán competidores que intentarán hacer lo mismo y mejorar el producto; razón por la cual en esta fase es importante que la empresa siga llevando su estrategia de marketing para diferenciarse de la competencia y hacer mejoras al producto como ventaja competitiva. El cliente reconoce y le es muy importante que le mantengan la calidad del producto como el precio, por eso lo importante de añadir un valor o servicio extra. Por otro lado, como el producto se vuelve tendencia, es muy importante el aumento de la distribución o presencia comercial donde actúa para aumentar el nuevos clientes.
+            p Sea cual sea la naturaleza del declive en ventas, hay dos opciones: renovar el producto o retirarlo totalmente del portafolio y del mercado en sí. Esta decisión debe tomarla la empresa en función de las necesidades del público, e identificando si no es rescatable, ya que está en declive, lo que quiere decir que viene de grandes ventas. 
 
           .col-lg-4
-            img(src='@/assets/curso/tema1/24.png', alt='Texto que describa la imagen')
+            img(src='@/assets/curso/tema1/22.png', alt='Texto que describa la imagen')
+
+
     .row.justify-content-center.mt-5
       .col-lg-8.bg9.py-md-4.py-2.px-5
         .row.align-items-center 
@@ -449,7 +450,7 @@
     .row.bg5.mb-5.mt-5
       .col-lg-1.col-3
       .col-lg-5.col-8.mt-2.mt-md-4
-        h4 Relación de la Matriz BCG y el ciclo de vida del producto.     
+        h4 Relación de la matriz BCG y el ciclo de vida del producto     
     p La capacidad competitiva de un producto o servicio debe estar correlacionada con el ciclo de vida que atraviesa al momento del diagnóstico con el fin de establecer las posibilidades estratégicas y de decisión. 
     .row.color1
       .col-lg-4
@@ -467,7 +468,7 @@
     .row.bg5.mb-5.mt-5
       .col-lg-1.col-3
       .col-lg-5.col-8.mt-4.mt-md-4
-        h4 Estadística básica.
+        h4 Estadística básica
     .row.justify-content-center
       .col-lg-8
         p Los procesos de diagnóstico empresarial como ejercicio de investigación, se basan en la búsqueda de información y procesamiento de datos, de manera que se evidencie el estado actual, la evolución o la tendencia.

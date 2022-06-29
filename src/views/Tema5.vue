@@ -29,7 +29,7 @@
               .row.p-2.p-md-4(numero="3" titulo="Participación")
                 .row.justify-content-center
                   img(src='@/assets/curso/tema5/4.png', alt='Texto que describa la imagen')
-                  p.mt-4 Consiste en describir cuáles fueron los pasos o fases que se adelantaron para la realización del diagnóstico. Como primer punto es importante describir la muestra.
+                  p.mt-4 Se debe mencionar en rol de los participantes en adelantar el proceso, y en suministrar la información, a que grupos se convocó para que se aplicarán los instrumentos.
               .row.p-2.p-md-4(numero="4" titulo="Técnica o metodología")
                 .row.justify-content-center
                   img(src='@/assets/curso/tema5/5.png', alt='Texto que describa la imagen')
@@ -37,7 +37,7 @@
               .row.p-2.p-md-4(numero="5" titulo="Describir el horizonte")
                 .row.justify-content-center
                   img(src='@/assets/curso/tema5/6.png', alt='Texto que describa la imagen')
-                  p.mt-4 Tiempo en el cual se llevó a cabo el proceso de diagnóstico, para de cada fase, el diseño, la preparación, captura de información, análisis, etc. También decir cómo se desarrolló el análisis e interpretación de la información, quiénes participaron, qué técnicas se emplearon, etc.
+                  p.mt-4 Tiempo en el cual se llevó a cabo el proceso de diagnóstico, para cada fase, el diseño, la preparación, captura de información, análisis, etc. También decir cómo se desarrolló el análisis e interpretación de la información, quiénes participaron, qué técnicas se emplearon, etc.
               .row.p-2.p-md-4(numero="6" titulo="Análisis de informaciones")
                 .row.justify-content-center
                   img(src='@/assets/curso/tema5/7.png', alt='Texto que describa la imagen')
@@ -83,7 +83,7 @@ export default {
       {
         titulo: 'Estructura de forma',
         texto:
-          'La organización debe ser capitular y su desarrollo cronológico a lo realizado, guardando el orden numérico.<br> Escrito en un lenguaje asequible a cualquier lector coherencia del informe.<br> En fuentes de fácil lectura.<br> Utilización adecuada de los instrumentos de recolección de datos.<br> Debe denotar un estilo de redacción uniforme.<br> Debe presentar las citas y consultas en formato APA.',
+          '- La organización debe ser capitular y su desarrollo cronológico a lo realizado, guardando el orden numérico.<br> - Escrito en un lenguaje asequible a cualquier lector coherencia del informe.<br> - En fuentes de fácil lectura.<br> - Utilización adecuada de los instrumentos de recolección de datos.<br> - Debe denotar un estilo de redacción uniforme.<br> - Debe presentar las citas y consultas en formato APA.',
 
         imagen: require('@/assets/curso/tema5/13.png'),
         // leyendaImagen: 'Leyenda de la imagen',

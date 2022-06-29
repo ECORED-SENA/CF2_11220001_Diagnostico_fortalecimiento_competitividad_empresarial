@@ -11,7 +11,7 @@
       .row.justify-content-center.color1
         .col-lg-8.p-4
           p Cuando se habla de indicadores de gestión, hablamos de medición y control, que efectivamente es la función para la cual se establecen, es decir, son los instrumentos que facilitan identificar y evaluar los niveles de cumplimiento o desviación de los logros o actividades a realizar frente a los resultados esperados.
-          p Un indicador de gestión o KPI (Key Performance Indicator), representa la forma de medir si una función, proyecto, actividad, área funcional, unidad de negocio, o persona, están alcanzando, logrando las metas y objetivos o resultados esperados.
+          p Un indicador de gestión o KPI <i>(Key Performance Indicator),</i> representa la forma de medir si una función, proyecto, actividad, área funcional, unidad de negocio, o persona, están alcanzando, logrando las metas y objetivos o resultados esperados.
 
         .col-lg-4
           img(src='@/assets/curso/tema2/1.svg', alt='Texto que describa la imagen')
@@ -42,7 +42,7 @@
           p <strong>Compuestos.</strong>    Cuando se correlacionan dos o más variables, por ejemplo, el margen de contribución, que es el resultado de dividir los costos unitarios entre el precio de venta de un producto.
         .tarjeta.color-acento-botones.p-3(x="78.4%" y="47%" numero="+")
 
-          p <strong>Estratégicos y Operativos.</strong>     Las empresas fijan objetivos corporativos como crecimiento, pero para identificar el cumplimiento se tienen que seguir indicadores de sentido estratégico como es el índice de participación en el mercado, el crecimiento del Margen de rentabilidad, pues de ellos dependerá la posibilidad de invertir. Por otra parte, los indicadores operativos son aquellos asociados a los niveles funcionales y de agregación material de valor, por ejemplo: tiempo promedio para cargar un camión de cervezas, número de pedidos devueltos. 
+          p <strong>Estratégicos y Operativos.</strong>     Las empresas fijan objetivos corporativos como crecimiento, pero para identificar el cumplimiento se tienen que seguir indicadores de sentido estratégico como es el índice de participación en el mercado, el crecimiento del margen de rentabilidad, pues de ellos dependerá la posibilidad de invertir. Por otra parte, los indicadores operativos son aquellos asociados a los niveles funcionales y de agregación material de valor, por ejemplo: tiempo promedio para cargar un camión de cervezas, número de pedidos devueltos. 
         .tarjeta.color-acento-botones.p-3(x="92.5%" y="47%" numero="+")
 
           p <strong>Funcionales.</strong>      Este enfoque de clasificación de los indicadores de gestión se aborda en conformidad la organización de la empresa y sus áreas funcionales.
@@ -57,7 +57,7 @@
           p <strong>Indicadores de logística.</strong>        Miden el nivel de rendimiento, oportunidad, cumplimiento y el nivel de optimización de los procesos, para mejorar la calidad e incrementar la productividad. Son utilizados para hacer mejora continua; por ejemplo: días de rotación de inventario, mínimos de stock, tiempo de reorden y aprovisionamiento, porcentaje de costo de fletes.
         .tarjeta.color-acento-botones.p-3(x="41.5%" y="92%" numero="+")
 
-          p <strong>Comunicación en redes sociales.</strong>         Cuando se quiere conocer el impacto de las publicaciones realizadas en las redes sociales, así como la participación en las ventas, por ejemplo: incremento del número de seguidores, alcance espero cubierto y real.
+          p <strong>Comunicación en redes sociales.</strong>         Cuando se quiere conocer el impacto de las publicaciones realizadas en las redes sociales, así como la participación en las ventas, por ejemplo: incremento del número de seguidores, alcance esperado, cubierto y real.
         .tarjeta.color-acento-botones.p-3(x="25%" y="92%" numero="+")
 
           p <strong>Indicadores de para la función de ventas.</strong>          Es un conjunto de indicadores que tienen como fin, medir el desempeño en función de las ventas y facturación de un producto o servicio. Esta función puede generar varios indicadores como, por ejemplo: satisfacción del cliente, nivel de facturación, eficacia en visitas de ventas, nivel de descuento ofertado para vender, número de visitas, horas con mayor tránsito, ventas por visita, facturación promedio, etc.
@@ -161,7 +161,7 @@
 
                       li.mb-0 
                         i.lista-ul__vineta
-                        p.mb-0 <strong>Glosario:</strong>  los indicadores de gestión dentro de sus componentes de definición deben contemplar la estructura de un glosario de términos que definan las siglas, símbolos, iniciales y demás aspectos a que dé lugar, para que el usuario pueda consultar y poderlo utilizar apropiadamente.
+                        p.mb-0 <strong>Glosario:</strong>  los indicadores de gestión dentro de sus componentes de definición deben contemplar la estructura de un glosario de términos que definan las siglas, símbolos, iniciales y demás aspectos a que dé lugar, para que el usuario pueda consultar y  utilizar apropiadamente.
     separador
     #t_2_2.titulo-segundo.color-acento-contenido
       h2 2.2.  Tipos y naturaleza de los indicadores
@@ -172,7 +172,7 @@
           .row(titulo="Eficiencia")
             .col-lg-1
             .col-lg-10
-              p Establece que los indicadores de gestión, deben expresar que la empresa aplica los mejores métodos:
+              p Hace referencia a hacer lo correcto por parte de la empresa, lo cual consiste en cumplir lo establecido con los clientes:
               .row.bg23
                 .col-lg-4
                   img(src='@/assets/curso/tema2/7.svg', alt='Texto que describa la imagen')   
@@ -290,7 +290,7 @@
       .col-lg-8.bg9.py-md-4.py-2.px-5
         .row.align-items-center 
           .col-lg-9
-            p.text-center.mb-0 Ejemplo trazabilidad del indicador de crecimiento en ventasen un año.
+            p.text-center.mb-0 Ejemplo trazabilidad del indicador de crecimiento en ventas en un año.
           .col-lg-3
             .row.justify-content-center
               .col-auto
