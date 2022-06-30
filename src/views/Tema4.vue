@@ -43,7 +43,7 @@
         p.text-center <strong>Recomendaciones o sugerencias para el desarrollo estratégico - determinación de estrategias y tácticas</strong>
     figure.mb-4
       .video
-        iframe(width="560" height="315" src="https://www.youtube.com/embed/ITCUHW1CuBo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+        iframe(width="560" height="315" src="https://www.youtube.com/embed/lEPUdjzTXKE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
     separador
     #t_4_3.titulo-segundo.color-acento-contenido
       h2 4.3. Plan de acción

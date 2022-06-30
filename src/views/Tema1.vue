@@ -109,7 +109,7 @@
               p.mb-md-0.mb-1 Técnicas de recolección de información.
             .col-lg-4.aqw
               a.boton.me-3.indicador__container.justify-content-center(
-                :href="obtenerLink('/downloads/infografia1.ai')"
+                :href="obtenerLink('/downloads/infografia1.pdf')"
                 target="_blank"
                 type="application/pdf"
                 @mouseover="mostrarIndicador = false"
@@ -131,7 +131,7 @@
           p.text-center.mt-2.mb-0 <strong>Preparación y alistamiento de los recursos</strong>
           
           a.boton.indicador__container.aqw(
-            :href="obtenerLink('/downloads/anexo_1.ai')"
+            :href="obtenerLink('/downloads/anexo_1.pdf')"
             target="_blank"
             type="application/pdf"
             @mouseover="mostrarIndicador = false"
@@ -144,7 +144,7 @@
         .row.bgc3.p-2
           p.text-center.mb-0 <strong>Fuentes de información</strong>
           a.boton.indicador__container.aqw(
-            :href="obtenerLink('/downloads/anexo_2.ai')"
+            :href="obtenerLink('/downloads/anexo_2.pdf')"
             target="_blank"
             type="application/pdf"
             @mouseover="mostrarIndicador = false"
@@ -157,7 +157,7 @@
         .row.bgc3.p-2
           p.text-center.mb-0 <strong>Captura de información</Strong>
           a.boton.indicador__container.aqw(
-            :href="obtenerLink('/downloads/anexo_3.ai')"
+            :href="obtenerLink('/downloads/anexo_3.pdf')"
             target="_blank"
             type="application/pdf"
             @mouseover="mostrarIndicador = false"
@@ -492,7 +492,7 @@
                 .row.justify-content-center
                   .col-auto
                     a.boton.indicador__container.aqw(
-                      :href="obtenerLink('/downloads/infografia2.ai')"
+                      :href="obtenerLink('/downloads/infografia2.pdf')"
                       target="_blank"
                       type="application/pdf"
                       @mouseover="mostrarIndicador = false"
