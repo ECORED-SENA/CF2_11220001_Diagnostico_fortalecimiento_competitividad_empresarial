@@ -29,7 +29,7 @@
               .row.p-2.p-md-4(numero="3" titulo="Participación")
                 .row.justify-content-center
                   img(src='@/assets/curso/tema5/4.png', alt='Texto que describa la imagen')
-                  p.mt-4 Se debe mencionar en rol de los participantes en adelantar el proceso, y en suministrar la información, a que grupos se convocó para que se aplicarán los instrumentos.
+                  p.mt-4 Se debe mencionar en rol de los participantes en adelantar el proceso, y en suministrar la información, a qué grupos se convocó para que se aplicaran los instrumentos.
               .row.p-2.p-md-4(numero="4" titulo="Técnica o metodología")
                 .row.justify-content-center
                   img(src='@/assets/curso/tema5/5.png', alt='Texto que describa la imagen')

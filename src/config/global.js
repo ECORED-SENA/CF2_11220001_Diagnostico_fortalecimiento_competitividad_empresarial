@@ -177,12 +177,12 @@ export default {
     },
     {
       referencia:
-        'Asesoría empresarial y coaching ejecutivo . ¿CÓMO INICIAR EL PROCESO DEL DIAGNÖSTICO EMPRESARIAL EN MI ORGANIZACIÓN?',
+        'Asesoría empresarial y coaching ejecutivo. ¿CÓMO INICIAR EL PROCESO DEL DIAGNÓSTICO EMPRESARIAL EN MI ORGANIZACIÓN?',
       link: 'https://www.youtube.com/watch?v=xbS2KO92BZU',
     },
     {
       referencia:
-        'Laurence, P. (2014). Diagnóstico Organizacional. En L. Jayh, . México D.F.: Centro Regional de Ayuda Técnica.',
+        'Laurence, P. (2014). Diagnóstico Organizacional. En L. Jayh. México D.F.: Centro Regional de Ayuda Técnica.',
     },
     {
       referencia:
@@ -191,7 +191,7 @@ export default {
     },
     {
       referencia:
-        'Rodriguez, D. (2012). Diagnóstico organizacional (4ta Edición ed.). Mexico, D.F.: Alfa Omega Grupo Editor. S.A.',
+        'Rodriguez, D. (2012). Diagnóstico organizacional (4ta Edición ed.). México, D.F.: Alfa Omega Grupo Editor. S.A.',
     },
     {
       referencia: 'Osaín, C. L. (2007). Indicadores de Gestión. ',

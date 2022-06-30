@@ -24,7 +24,7 @@
 
         .tarjeta.color-acento-botones.p-3(x="7.5%" y="47%" numero="+")
 
-          p <strong>Externos.</strong> Es externo y de aplicabilidad para la empresa cuando desde el entorno se fija y la empresa lo adopta como meta o medida de seguimiento, está disponible desde fuera de la compañía, y la empresa lo utiliza para compararse, por ejemplo: el índice de crecimiento del PIB para la industria o sector en que se participa o de la región donde se está operando la empresa, lo que traduce que las empresa deberá tener un crecimiento económico similar al mismo; otro ejemplo, puede ser la participación laboral entre hombres y mujeres, que para el caso de un nuevo puesto la empresa establecerá un índice de participación de mujeres y otro de hombres, estos indicadores los dispone el entorno, en que opera la empresa y pueden ser un referente.
+          p <strong>Externos.</strong> Es externo y de aplicabilidad para la empresa cuando desde el entorno se fija y la empresa lo adopta como meta o medida de seguimiento, está disponible desde fuera de la compañía, y la empresa lo utiliza para compararse, por ejemplo: el índice de crecimiento del PIB para la industria o sector en que se participa o de la región donde se está operando la empresa, lo que traduce que la empresa deberá tener un crecimiento económico similar al mismo; otro ejemplo, puede ser la participación laboral entre hombres y mujeres, que para el caso de un nuevo puesto la empresa establecerá un índice de participación de mujeres y otro de hombres, estos indicadores los dispone el entorno, en que opera la empresa y pueden ser un referente.
         
         .tarjeta.color-acento-botones.p-3(x="64%" y="9%" numero="+")
 
@@ -40,7 +40,7 @@
           p <strong>Cualitativos.</strong>   Miden las percepciones, opiniones y preferencias, gustos; en la práctica de presentación, de estos indicadores son expuestas de forma cuantitativa, porque lo cualitativo lleva frecuencias de ocurrencia y es allí, donde adopta un sentido cuantitativo y numérico, pero no hay que olvidar que expresa cualidades. Como ejemplo de indicadores cualitativos, se puede mencionar: el índice de corrupción nacional o internacional, el nivel de satisfacción de los clientes de un producto o servicio, la rapidez de atención a los clientes, etc. 
         .tarjeta.color-acento-botones.p-3(x="50%" y="47%" numero="+")
 
-          p <strong>Cuantitativos.</strong>   Miden y cuantifican resultados, recursos, casos etc., son de naturaleza cuantitativos. Dentro de los ejemplos de indicadores cuantitativos se puede mencionar el índice de eficacia en cierre de ventas, lo ingresos por ventas de cierta línea de producto, el porcentaje de producto defectuoso, etc.
+          p <strong>Cuantitativos.</strong>   Miden y cuantifican resultados, recursos, casos, etc., son de naturaleza cuantitativos. Dentro de los ejemplos de indicadores cuantitativos se puede mencionar el índice de eficacia en cierre de ventas, los ingresos por ventas de cierta línea de producto, el porcentaje de producto defectuoso, etc.
         .tarjeta.color-acento-botones.p-3(x="64.5%" y="47%" numero="+")
 
           p <strong>Compuestos.</strong>    Cuando se correlacionan dos o más variables, por ejemplo, el margen de contribución, que es el resultado de dividir los costos unitarios entre el precio de venta de un producto.
@@ -108,7 +108,7 @@
                     ul.lista-ul--color
                       li.mb-0 
                         i.lista-ul__vineta
-                        p.mb-0 <strong>Status:</strong>  refiere a la lectura actual.
+                        p.mb-0 <strong><i>Status:</i></strong>  refiere a la lectura actual.
 
                       li.mb-0 
                         i.lista-ul__vineta
@@ -125,7 +125,7 @@
                         p.mb-0 <strong>Rango de gestión:</strong> son los valores mínimo y máximo entre los cuales se debe expresar el indicador o presentar niveles de estatus.
                       li.mb-0 
                         i.lista-ul__vineta
-                        p <strong>Forma de cálculo:</strong>  es la manera cómo se correlacionan las variables para poder expresar el objetivo o meta del indicador.
+                        p <strong>Forma de cálculo:</strong>  es la manera como se correlacionan las variables para poder expresar el objetivo o meta del indicador.
           .tarjeta.color-acento-contenido.p-4
             .row.justify-content-center.mb-0
               .col-lg-3
@@ -169,7 +169,7 @@
     separador
     #t_2_2.titulo-segundo.color-acento-contenido
       h2 2.2.  Tipos y naturaleza de los indicadores
-    p La determinación de la competitividad empresarial, desde el punto de vista de la gestión, se refiere a dos aspectos orientacionales qué tienen que ver con el impacto desde la empresa hacia fuera y de la empresa hacia adentro; es cuando se debe reconocer el concepto de eficiencia y eficacia como medidas de la efectividad empresarial, y para la productividad.
+    p La determinación de la competitividad empresarial, desde el punto de vista de la gestión, se refiere a dos aspectos orientacionales que tienen que ver con el impacto desde la empresa hacia fuera y de la empresa hacia adentro; es cuando se debe reconocer el concepto de eficiencia y eficacia como medidas de la efectividad empresarial, y para la productividad.
     .row.justify-content-center
       .col-lg-10
         AcordionA.mb-5(tipo="a" clase-tarjeta="tarjeta tarjeta--azul")

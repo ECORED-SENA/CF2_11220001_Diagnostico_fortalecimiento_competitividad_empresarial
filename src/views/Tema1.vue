@@ -117,7 +117,7 @@
                 span Descargar
                 i.fas.fa-file-download
                 .indicador--click(v-if="mostrarIndicador")
-    p Ahora, corresponde en conformidad al plan de trabajo y agendamiento para la captura de información, adelantar las jornadas de trabajo para la captura de información, el cual se presenta en el siguiente recurso.
+    p Ahora, corresponde en conformidad al plan de trabajo y agendamiento para la captura de información, adelantar las jornadas de trabajo para la captura de información, el cual se presenta en el presente recurso.
     .row.justify-content-center.mt-4
       .row.justify-content-center.mb-3
         .col-lg-6.tte
@@ -214,7 +214,7 @@
                   p.font1.mb-0   - Gestión administrativa estratégica
                   p.font1.mb-0  - Productos y servicios
                   p.font1.mb-0  - Mercado de clientes servidos
-                  p.font1.mb-0  - Procesos empresariales:
+                  p.font1.mb-0  - Procesos empresariales
                   p.font1.mb-0  - Marketing y comunicación
                   p.font1.mb-0  - Recursos humanos y Organización
                   p.font1.mb-0  - Posición Financiera
@@ -399,16 +399,16 @@
       .tarjeta.color-acento-botones--borde.p-4(titulo="Introducción")
         .row.justify-content-center
           .col-lg-8
-            p Todo producto empieza comercialmente en el momento en el que se lanza al mercado, se trata de una novedad para los clientes o consumidores porque lo desconocen, no conocen su desempeño, características etc.; lo que implica que las ventas sean bajas al principio, especialmente, si la empresa o marca asociada no es muy conocida, por ello, requiere de inversiones iniciales para su lanzamiento y distribución, colocación en tiendas, etc., haciendo por llegar a los clientes a través de estrategias de marketing, como promociones y publicidad.
+            p Todo producto empieza comercialmente en el momento en el que se lanza al mercado, se trata de una novedad para los clientes o consumidores porque lo desconocen, no conocen su desempeño, características, etc.; lo que implica que las ventas sean bajas al principio, especialmente, si la empresa o marca asociada no es muy conocida, por ello, requiere de inversiones iniciales para su lanzamiento y distribución, colocación en tiendas, etc., haciendo por llegar a los clientes a través de estrategias de marketing, como promociones y publicidad.
             p Antes de lanzar el producto realizó el estudio, por lo que lo ideal es utilizar toda la información para llegar al tipo de público que pueda interesarse en ese producto u oportunidades para hacerlo.
           .col-lg-4
             img(src='@/assets/curso/tema1/21.png', alt='Texto que describa la imagen')
       .tarjeta.color-acento-botones--borde.p-4(titulo="Crecimiento")
         .row.justify-content-center
           .col-lg-8
-            p Después de la introducción de un producto, se da la fase del crecimiento. como un aumento de ventas en consecuencia de las acciones que se adelantaron durante la fase de introducción. Los consumidores conocieron el producto gracias a la promoción y publicidad y demás estrategias de marketing que se implementaron, por lo cual ha decidido confiar en la marca y seguir comprando o recomendar su compra. 
+            p Después de la introducción de un producto, se da la fase del crecimiento como un aumento de ventas en consecuencia de las acciones que se adelantaron durante la fase de introducción. Los consumidores conocieron el producto gracias a la promoción y publicidad y demás estrategias de <i>marketing</i> que se implementaron, por lo cual ha decidido confiar en la marca y seguir comprando o recomendar su compra. 
 
-            p Esta fase de crecimiento se caracteriza por el aumento sostenido de las ventas y porque se empiezan a consolidar beneficios o utilidades del producto, hay que tener en cuenta que aparecerán competidores que intentarán hacer lo mismo y mejorar el producto; razón por la cual en esta fase es importante que la empresa siga llevando su estrategia de marketing para diferenciarse de la competencia y hacer mejoras al producto como ventaja competitiva. El cliente reconoce y le es muy importante que le mantengan la calidad del producto como el precio, por eso lo importante de añadir un valor o servicio extra. Por otro lado, como el producto se vuelve tendencia, es muy importante el aumento de la distribución o presencia comercial donde actúa para aumentar el nuevos clientes.
+            p Esta fase de crecimiento se caracteriza por el aumento sostenido de las ventas y porque se empiezan a consolidar beneficios o utilidades del producto, hay que tener en cuenta que aparecerán competidores que intentarán hacer lo mismo y mejorar el producto; razón por la cual en esta fase es importante que la empresa siga llevando su estrategia de <i>marketing</i> para diferenciarse de la competencia y hacer mejoras al producto como ventaja competitiva. El cliente reconoce y le es muy importante que le mantengan la calidad del producto como el precio, por eso lo importante de añadir un valor o servicio extra. Por otro lado, como el producto se vuelve tendencia, es muy importante el aumento de la distribución o presencia comercial donde actúa para aumentar los nuevos clientes.
 
           .col-lg-4
             img(src='@/assets/curso/tema1/24.png', alt='Texto que describa la imagen')
@@ -437,12 +437,12 @@
       .col-lg-8.bg9.py-md-4.py-2.px-5
         .row.align-items-center 
           .col-lg-9
-            p.text-center.mb-md-0.mb-3 ¿ Por qué se caracteriza la fase de crecimiento ?
+            p.text-center.mb-md-0.mb-3 ¿Por qué se caracteriza la fase de crecimiento?
           .col-lg-3
             .row.justify-content-center
               .col-auto
                 a.boton.color-acento-botones.indicador__container.aqw(@click="modal1 = true")
-                  span Observar
+                  span <i>Observar</i>
                   i.fas.fa-file
                   .indicador--click(v-if="mostrarIndicador")
 
@@ -453,14 +453,14 @@
                   figure
                     img(src='@/assets/curso/tema1/25.svg', alt='Texto que describa la imagen')
                 .col-md-6.mb-4.mb-md-0
-                  p Aumento sostenido de las ventas y por qué se empiezan a consolidar beneficios o utilidades del producto, hay que tener en cuenta que aparecerán competidores que intentarán hacer lo mismo y mejorar el producto; razón por la cual en esta fase es importante que la empresa siga llevando su estrategia de marketing para diferenciarse de la competencia y hacer mejoras al producto como ventaja competitiva.
+                  p Aumento sostenido de las ventas y por qué se empiezan a consolidar beneficios o utilidades del producto, hay que tener en cuenta que aparecerán competidores que intentarán hacer lo mismo y mejorar el producto; razón por la cual en esta fase es importante que la empresa siga llevando su estrategia de <i>marketing</i> para diferenciarse de la competencia y hacer mejoras al producto como ventaja competitiva.
                   p.mb-0 El cliente reconoce y le es muy importante que le mantengan la calidad del producto como el precio, por eso lo importante de añadir un valor o servicio extra.
                   p Como el producto se vuelve tendencia, es muy importante el aumento de la distribución o presencia comercial donde actúa para aumentar los nuevos clientes.
                 .col-md-1
     .row.bg5.mb-5.mt-5
       .col-lg-1.col-3
       .col-lg-5.col-8.mt-2.mt-md-4
-        h4 Relación de la matriz BCG y el ciclo de vida del producto     
+        h4.qaw Relación de la matriz BCG y el ciclo de vida del producto     
     p La capacidad competitiva de un producto o servicio debe estar correlacionada con el ciclo de vida que atraviesa al momento del diagnóstico con el fin de establecer las posibilidades estratégicas y de decisión. 
     .row.color1
       .col-lg-4
@@ -468,7 +468,7 @@
       .col-lg-8.mt-5
         p Un producto con buena participación en el mercado y un crecimiento en ventas de manera sostenida puede ser la situación previa a un declive, por lo cual la empresa debe hacer este análisis y prepararse para hacer un reacondicionamiento o mejoramiento a su producto en pro de alargar su etapa de madurez, es decir, tomar la decisión de defender su posición relativa de mercado y seguir promoviendo el bien producto o servicio como un bien de calidad de vida para sus consumidores y como una alternativa de consumo para el mercado en general, esto es lo que la empresa procurará dependiendo de la fase en que se encuentre su producto, agilizar su efecto; en el caso del crecimiento, ampliar la fase de madurez y cuando se empiezan a evidenciar pérdidas de atractivo en el mercado y disminución de ventas, reforzar el producto para que no caiga en declive.
     p.mt-5 Para la etapa de introducción, los esfuerzos deben ser dinámicos y ágiles, sabiendo canalizar las inversiones para el posicionamiento y conocimiento ante los consumidores potenciales, resolviendo así el interrogante que representa estos productos para la matriz BCG.
-    p En la siguiente figura, se puede correlacionar la relación existente entre el ciclo de vida del producto y la matriz BCG, identificando como el crecimiento en ventas se relaciona con la participación de mercado y el tiempo con la tasa de crecimiento en ventas, lo que sirve para alinear las decisiones estratégicas en la empresa según el tipo de mercado, clasificación y ciclo de vida de producto.
+    p En la siguiente figura, se puede correlacionar la relación existente entre el ciclo de vida del producto y la matriz BCG, identificando cómo el crecimiento en ventas se relaciona con la participación de mercado y el tiempo con la tasa de crecimiento en ventas, lo que sirve para alinear las decisiones estratégicas en la empresa según el tipo de mercado, clasificación y ciclo de vida de producto.
     .row.justify-content-center.mt-5 
       .col-lg-8
         .titulo-sexto.color-acento-contenido
@@ -553,11 +553,11 @@
                       td.text-center 40
                     tr
                       td Frecuencias
-                      td.text-center 30.0%
-                      td.text-center 22.5%
-                      td.text-center 27.5%
-                      td.text-center 20.0%  
-                      td.text-center 100.0%           
+                      td.text-center 30.0 %
+                      td.text-center 22.5 %
+                      td.text-center 27.5 %
+                      td.text-center 20.0 %  
+                      td.text-center 100.0 %           
 
             .col-lg-1
 
@@ -579,7 +579,7 @@
           .row(titulo="Ejemplo histograma")
             .col-lg-1
             .col-lg-10
-              p En el caso del restaurante, el gerente desea saber cómo es el consumo semanal de platos vendidos, para lo cual el gerente el presenta la siguiente información:
+              p En el caso del restaurante, el gerente desea saber cómo es el consumo semanal de platos vendidos, para lo cual el gerente presenta la siguiente información:
               .tabla-a.color-primario.mb-5 
                 table
                   thead
@@ -587,10 +587,10 @@
                       th .
                       th Lunes
                       th Martes
-                      th Miercoles
+                      th Miércoles
                       th Jueves
                       th Viernes
-                      th Sabado
+                      th Sábado
                       th Domingo
                       th Total
 
@@ -607,14 +607,14 @@
                       td.text-center 280                      
                     tr
                       td %
-                      td.text-center 10.7%
-                      td.text-center 7.1%
-                      td.text-center 12.5%
-                      td.text-center 12.1%  
-                      td.text-center 16.1%           
-                      td.text-center 21.4% 
-                      td.text-center 20.0% 
-                      td.text-center 100.0%                                             
+                      td.text-center 10.7 %
+                      td.text-center 7.1 %
+                      td.text-center 12.5 %
+                      td.text-center 12.1 %  
+                      td.text-center 16.1 %           
+                      td.text-center 21.4 % 
+                      td.text-center 20.0 % 
+                      td.text-center 100.0 %                                             
             
             .col-lg-1
 
@@ -646,17 +646,17 @@
                         th Almuerzos
                     tbody
                       tr
-                        td.text-center 11:30 am. a 12:30pm.
+                        td.text-center 11:30 am. a 12:30 pm.
                         td.text-center 8
 
                       tr
-                        td.text-center 12:30 am. a 1:30 pm.
+                        td.text-center 12:30 pm. a 1:30 pm.
                         td.text-center 15
                       tr
-                        td.text-center 1:30 am. a 2:30pm.
+                        td.text-center 1:30 pm. a 2:30pm.
                         td.text-center 11
                       tr
-                        td.text-center 2:30 am. a 4:00pm.
+                        td.text-center 2:30 pm. a 4:00pm.
                         td.text-center 6
                 p.mt-4 Para el caso del restaurante se desea saber cómo es el comportamiento o flujo de comensales en el horario de almuerzo, para lo cual el gerente del restaurante recibe de su administrador la siguiente información. A partir de la información suministrada se elabora el diagrama de pastel.
             
