@@ -108,7 +108,7 @@
                     ul.lista-ul--color
                       li.mb-0 
                         i.lista-ul__vineta
-                        p.mb-0 <strong><i>Status:</i></strong>  refiere a la lectura actual.
+                        p.mb-0 <i><strong>Status:</strong></i>  refiere a la lectura actual.
 
                       li.mb-0 
                         i.lista-ul__vineta

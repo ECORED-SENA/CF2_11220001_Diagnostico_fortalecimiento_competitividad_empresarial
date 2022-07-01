@@ -653,10 +653,10 @@
                         td.text-center 12:30 pm. a 1:30 pm.
                         td.text-center 15
                       tr
-                        td.text-center 1:30 pm. a 2:30pm.
+                        td.text-center 1:30 pm. a 2:30 pm.
                         td.text-center 11
                       tr
-                        td.text-center 2:30 pm. a 4:00pm.
+                        td.text-center 2:30 pm. a 4:00 pm.
                         td.text-center 6
                 p.mt-4 Para el caso del restaurante se desea saber cómo es el comportamiento o flujo de comensales en el horario de almuerzo, para lo cual el gerente del restaurante recibe de su administrador la siguiente información. A partir de la información suministrada se elabora el diagrama de pastel.
             

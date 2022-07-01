@@ -207,7 +207,7 @@ export default {
     },
     {
       termino: 'BCG',
-      significado: 'Boston Consulting Group.',
+      significado: ' Boston Consulting Group.',
     },
     {
       termino: 'Captura de información',
@@ -343,7 +343,7 @@ export default {
       tema: 'Tipos y naturaleza de los indicadores',
       referencia:
         'Rojas Caro, J. y Matallana Quiroga, L. (2016). Los indicadores de gestión como herramienta de competitividad empresarial. ',
-      tipo: 'pdf',
+      tipo: 'Página web',
       link: 'https://ciencia.lasalle.edu.co/administracion_de_empresas',
     },
   ],
