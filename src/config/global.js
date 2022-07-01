@@ -343,8 +343,9 @@ export default {
       tema: 'Tipos y naturaleza de los indicadores',
       referencia:
         'Rojas Caro, J. y Matallana Quiroga, L. (2016). Los indicadores de gestión como herramienta de competitividad empresarial. ',
-      tipo: 'Página web',
-      link: 'https://ciencia.lasalle.edu.co/administracion_de_empresas',
+      tipo: 'PDF',
+      link:
+        'https://ciencia.lasalle.edu.co/cgi/viewcontent.cgi?article=2350&context=administracion_de_empresas#:~:text=El%20concepto%20de%20Indicadores%20de,establecidos%20en%20la%20misi%C3%B3n%20corporativa.',
     },
   ],
   creditos: {

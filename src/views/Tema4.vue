@@ -17,7 +17,7 @@
               p.mb-0 La matriz DOFA, dentro de sus múltiples posibilidades en pro del desarrollo competitivo empresarial, se puede utilizar como marco referencial de actuación y no meramente como un ejercicio para fijar iniciativas estratégicas de cruces entre oportunidades y fortalezas, oportunidades y debilidades, fortalezas y amenazas, y debilidades y amenazas. 
           p.mt-4 Este primer enfoque de tomar iniciativas de acción tiene que alinearse con el sentido estratégico corporativo, por tal motivo, un nuevo uso será el concerniente a la fijación de iniciativas de actuación y posteriormente de objetivos, para lo cual se invita a ver el siguiente video:
     .row.justify-content-center.mb-4
-      .col-lg-8.col22
+      .col-lg-8.col221
         p.text-center <strong>Recomendaciones o sugerencias para el desarrollo estratégico – recomendaciones para emprender planes</strong>
     figure.mb-4
       .video
