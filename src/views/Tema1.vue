@@ -117,13 +117,13 @@
                 span Descargar
                 i.fas.fa-file-download
                 .indicador--click(v-if="mostrarIndicador")
-    p Ahora, corresponde en conformidad al plan de trabajo y agendamiento para la captura de información, adelantar las jornadas de trabajo para la captura de información, el cual se presenta en el presente recurso.
+    p Ahora, corresponde en conformidad al plan de trabajo y agendamiento para la captura de información, adelantar las jornadas de trabajo para la captura de información, el cual se presenta a continuación.
     .row.justify-content-center.mt-4
       .row.justify-content-center.mb-3
         .col-lg-6.tte
           h3.text-center.mb-0 Plan de trabajo y agendamiento para la captura de información 
       p.text-center.mb-0 En el presente recurso se abordarán los elementos necesarios para obtener una buena generación de la información.
-      p.text-center para generar buena información, se tienen en cuenta tres fases:
+      p.text-center Para generar buena información, se tienen en cuenta tres fases:
     .row.justify-content-center.mt-5
       .col-lg-4.wii.mt-4
         img(src='@/assets/curso/tema1/5.png', alt='Texto que describa la imagen')
