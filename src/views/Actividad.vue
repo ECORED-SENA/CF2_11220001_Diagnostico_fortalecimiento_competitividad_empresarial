@@ -11,12 +11,12 @@
             img(src="@/assets/template/arrastrar.svg", alt="Texto que describa la imagen")
       .col-12.col-md-8.col-lg-9
         .titulo-segundo
-          h2 Comprensión de temáticas del componente 02
+          h2 Comprensión de temáticas del componente
         p.mb-4 Identificar la terminología de la administración y la planeación estratégica.
         .tarjeta.actividad.p-3
           .row.justify-content-around.align-items-center            
             .col-sm.mb-3.mb-sm-0
-              p.fw-bold.mb-0 Emparejamiento
+              p.fw-bold.mb-0 Selección múltiple con única respuesta
             .col-auto
               a.boton.boton--b(:href="obtenerLink('/actividades/CF2AD2/story.html')" target="_blank")
                 span Realizar
